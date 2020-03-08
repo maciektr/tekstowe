@@ -16,8 +16,7 @@ struct match{
 void find(const string &line, const string &pattern, vector<int> &index){
     string word = pattern+'#'+ line;
 
-    vector<int> tab;
-    tab.resize(word.length(),0);
+    vector<int> tab(word.length(),0);
     int k = 0;
     for(int i = 1; (unsigned)i<word.length(); i++){
         while(k > 0 && word[i] != word[k])
