@@ -362,3 +362,5 @@ dmypy.json
 # End of https://www.gitignore.io/api/c,c++,cmake,python,clion+all,pycharm+all,jupyternotebooks,visualstudiocode
 
 .vscode/
+
+lab1/wikipedia-tail-kruszwil.txt
