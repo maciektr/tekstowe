@@ -7,9 +7,6 @@ using namespace std;
 const char* PATH="wikipedia-tail-kruszwil.txt";
 const string PATTERN = "kruszwil";
 
-#define sz(X) (int)(X).size()
-#define vi vector<int>
-
 void find(const string &line, const string &pattern, vector<int> &index){
     // string word = pattern+'#'+ line;
     int w_len = (int)pattern.length()+1+(int)line.length();
