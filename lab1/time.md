@@ -9,52 +9,50 @@ Kolejnego pomiaru dokonałem z wykorzystaniem programu time z systemu linux, zap
 ## Algorytm naiwny
 Czas zmierzony przy pomocy sio2jail:
 
-| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
+| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      | 3ms        | 3 658ms         | 1 125ms
-| Python               |      | 238ms      | 269 830ms       | 4 028ms
-| PyPy                 |      | 45ms       | 8 716ms         | 886ms
+| C++                  |      | 3ms        | 3 658ms         | 3 511ms
+| Python               |      | 238ms      | 269 830ms       | 1 388ms
+| PyPy                 |      | 45ms       | 8 716ms         | 1 566ms
 
 Czas zmierzony przy pomocy narzędzia time:
 
-| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
+| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      |  3ms       | 700ms           | 300ms
-| Python               |      |  85ms      | 1 103 000ms     | 990ms
-| PyPy                 |      |  33ms      | 1 670ms         | 274ms
+| C++                  |      |  3ms       | 700ms           | 445ms
+| Python               |      |  85ms      | 1 103 000ms     | 300ms
+| PyPy                 |      |  33ms      | 1 670ms         | 264ms
 
 ## Algorytm kmp
 
 Czas zmierzony przy pomocy sio2jail:
 
-| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
+| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      | 2ms        | 3 044ms         | 669ms 
-| Python               |      | 250ms      | 276 915ms       | 4 617ms
-| PyPy                 |      | 54ms       | 5 347ms         | 684ms
+| C++                  |      | 2ms        | 3 044ms         | 9ms 
+| Python               |      | 250ms      | 276 915ms       | 1 428ms
+| PyPy                 |      | 54ms       | 5 347ms         | 66ms
 
 Czas zmierzony przy pomocy narzędzia time:
 
-| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
+| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      | 3ms        | 751ms           | 193ms      |
-| Python               |      | 93ms       | 53 634ms        | 989ms
-| PyPy                 |      | 28ms       | 1 190ms         | 214ms
+| C++                  |      | 3ms        | 751ms           | 9ms      |
+| Python               |      | 93ms       | 53 634ms        | 305ms
+| PyPy                 |      | 28ms       | 1 190ms         | 60ms
 
 ## Automat skończony 
 
 Czas zmierzony przy pomocy sio2jail:
 
-| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
+| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
 | C++                  |      |            |                 |  
 | Python               |      | 160ms      | 158 177ms       | 3652ms
-| PyPy                 |      |            |                 | 
 
 Czas zmierzony przy pomocy narzędzia time:
 
-| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
+| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
 | C++                  |      |            |                 |            |
 | Python               |      | 72ms       | 36 140ms        | 862ms
-| PyPy                 |      |            |                 | 
