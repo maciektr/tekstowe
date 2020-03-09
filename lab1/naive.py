@@ -17,6 +17,9 @@ if __name__=='__main__':
     path='wikipedia-tail-kruszwil.txt'
     pattern='kruszwil'
 
+    # path='a.txt'
+    # pattern='AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+
     res = naive(path, pattern)
     print('\n'.join(map(lambda x:'line: '+str(x[0])+'; index:'+str(x[1]),res)))
     print("Found "+str(len(res))+" matches")

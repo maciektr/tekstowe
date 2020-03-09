@@ -7,6 +7,9 @@ using namespace std;
 const char* PATH="wikipedia-tail-kruszwil.txt";
 const string PATTERN = "kruszwil";
 
+// const char* PATH="a.txt";
+// const string PATTERN = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+
 struct match{
     int line;
     int index;
