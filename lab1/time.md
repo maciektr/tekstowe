@@ -29,8 +29,7 @@ Czas zmierzony przy pomocy sio2jail:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++ z vector         |      | 4ms        | 4572ms          | 673ms 
-| C++ z tablicami C    |      | 3ms        | 3517ms          | 668ms   
+| C++                  |      | 2ms        | 3044ms          | 669ms 
 | Python               |      |  |  |  
 | PyPy                 |      |  |  |   
 
@@ -38,8 +37,7 @@ Czas zmierzony przy pomocy narzędzia time:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      | 4ms        | 1100ms          | 223ms      |
-| C++ z tablicami C    |      | 3ms        | 1000ms          | 189ms
+| C++                  |      | 3ms        | 751ms           | 193ms      |
 | Python               |      |            |                 |  
 | PyPy                 |      |            |                 | 
 
