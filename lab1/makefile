@@ -1,6 +1,6 @@
 # Makefile
 
-main: kmp kmp_c naive
+main: kmp naive
 
 kmp: 
 	g++ -static -O2 -Wall -Wshadow kmp.cpp -o kmp.o
