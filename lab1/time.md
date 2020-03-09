@@ -11,17 +11,17 @@ Czas zmierzony przy pomocy sio2jail:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      | 3ms        | 3658ms          | 1125ms
-| Python               |      | 238ms      | ---             | 4028ms
-| PyPy                 |      | 45ms       | 8716ms          | 886ms
+| C++                  |      | 3ms        | 3 658ms         | 1 125ms
+| Python               |      | 238ms      | 269 830ms       | 4 028ms
+| PyPy                 |      | 45ms       | 8 716ms         | 886ms
 
 Czas zmierzony przy pomocy narzędzia time:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
 | C++                  |      |  3ms       | 700ms           | 300ms
-| Python               |      |  85ms      | ---             | 990ms
-| PyPy                 |      |  33ms      | 1670ms          | 274ms
+| Python               |      |  85ms      | 1 103 000ms     | 990ms
+| PyPy                 |      |  33ms      | 1 670ms         | 274ms
 
 ## Algorytm kmp
 
@@ -29,18 +29,32 @@ Czas zmierzony przy pomocy sio2jail:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      | 2ms        | 3044ms          | 669ms 
-| Python               |      |  |  |  
-| PyPy                 |      |  |  |   
+| C++                  |      | 2ms        | 3 044ms         | 669ms 
+| Python               |      | 250ms      | 276 915ms       | 4 617ms
+| PyPy                 |      | 54ms       | 5 347ms         | 684ms
 
 Czas zmierzony przy pomocy narzędzia time:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
 | C++                  |      | 3ms        | 751ms           | 193ms      |
-| Python               |      |            |                 |  
-| PyPy                 |      |            |                 | 
-
+| Python               |      | 93ms       | 53 634ms        | 989ms
+| PyPy                 |      | 28ms       | 1 190ms         | 214ms
 
 ## Automat skończony 
 
+Czas zmierzony przy pomocy sio2jail:
+
+| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
+|:--------------------:|:----:|:----------:|:---------------:|:----------:|
+| C++                  |      |            |                 |  
+| Python               |      | 160ms      | 158 177ms       | 3652ms
+| PyPy                 |      |            |                 | 
+
+Czas zmierzony przy pomocy narzędzia time:
+
+| Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAA" |  
+|:--------------------:|:----:|:----------:|:---------------:|:----------:|
+| C++                  |      |            |                 |            |
+| Python               |      | 72ms       | 36 140ms        | 862ms
+| PyPy                 |      |            |                 | 
