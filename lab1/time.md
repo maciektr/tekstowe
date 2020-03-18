@@ -5,7 +5,14 @@ W ramach laboratorium zaimplementowałem wymienione algorytmy w języku python i
 Przy pomocy skryptu pythona wygenerowałem tekst składający się z tysiąc razy powtórzonego słowa, mającego postać tysiąca znaków A i jednego B. Następnie wygenerowałem wzorzec będący pojedyńczym takim słowem. Implementacja naiwna dla tak przygotowanego testu (nazwanego AAB) okazała się wielokrotnie wolniejsza, co widać w sekcji z wynikami testów wydajnościowych. 
 
 ## Wzorzec, dla którego przeliczenie tablicy przejścia automatu jest długie
-Z implementacji algorytmu KMP i automatu skończonego wydzieliłem funkcje odpowiedzialne za przeliczenie tablicy przejścia. 
+Z implementacji algorytmu KMP i automatu skończonego wydzieliłem funkcje odpowiedzialne za przeliczenie tablicy przejścia. Przygotowałem też tekst, składający się z powtórzonego 10 000 razy zbioru liter z alfabetu łacińskiego. Zmierzyłem czasy konstrukcji tablic, otrzymując następujące wyniki:
+
+| Sposób implementacji | Algorytm | Zmierzony czas konstrukcji |
+|:--------------------:|:--------:|:--------------------------:|
+| C++                  | Automat  | 7 131ms
+| C++                  | KMP      | 118ms
+| Python               | Automat  | 6 934ms
+| Python               | KMP      | 671ms
 
 # Wyniki testów wydajnościowych
 
