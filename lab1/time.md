@@ -1,3 +1,12 @@
+# Implementacja
+W ramach laboratorium zaimplementowałem wymienione algorytmy w języku python i C++. Implementacje w pythonie uruchamiałem zarówno za pomocą zwykłego interpretera, jak i środowiska pypy. 
+
+## Wzorzec dla którego implementacja naiwna jest zbyt wolna
+Przy pomocy skryptu pythona wygenerowałem tekst składający się z tysiąc razy powtórzonego słowa, mającego postać tysiąca znaków A i jednego B. Następnie wygenerowałem wzorzec będący pojedyńczym takim słowem. Implementacja naiwna dla tak przygotowanego testu (nazwanego AAB) okazała się wielokrotnie wolniejsza, co widać w sekcji z wynikami testów wydajnościowych. 
+
+## Wzorzec, dla którego przeliczenie tablicy przejścia automatu jest długie
+Z implementacji algorytmu KMP i automatu skończonego wydzieliłem funkcje odpowiedzialne za przeliczenie tablicy przejścia. 
+
 # Wyniki testów wydajnościowych
 
 ## Metodologia 
