@@ -1,9 +1,9 @@
 # Wyniki testów wydajnościowych
 
 ## Metodologia 
-Pierwszy pomiar czaus wykonałem z użyciem wykorzystywanego przez Olimpiadę Informatyczną pakietu [sio2jail](https://github.com/sio2project/sio2jail), którego specyfika została opisana szerzej w pracy [praca](https://hitagi.dasie.mimuw.edu.pl/files/licencjat/pracalic-logo.pdf), za pośrednictwem wrappera [oiejq](https://oi.edu.pl/static/attachment/20181007/oiejq.tar.gz). Pomiar oparty jest o liczniki sprzętowe. 
+Pierwszy pomiar czasu wykonałem z użyciem wykorzystywanego przez Olimpiadę Informatyczną pakietu [sio2jail](https://github.com/sio2project/sio2jail), którego specyfika została opisana szerzej w pracy [praca](https://hitagi.dasie.mimuw.edu.pl/files/licencjat/pracalic-logo.pdf), za pośrednictwem wrappera [oiejq](https://oi.edu.pl/static/attachment/20181007/oiejq.tar.gz). Pomiar oparty jest o liczniki sprzętowe. 
 
-Kolejnego pomiaru dokonałem z wykorzystaniem programu time z systemu linux, zapisując zmierzony czas użytkownika. 
+Kolejnego pomiaru dokonałem z wykorzystaniem programu time z systemu linux, zapisując zmierzony czas "real". 
 
 
 ## Algorytm naiwny
@@ -19,9 +19,9 @@ Czas zmierzony przy pomocy narzędzia time:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      |  3ms       | 700ms           | 445ms
-| Python               |      |  85ms      | 1 103 000ms     | 300ms
-| PyPy                 |      |  33ms      | 1 670ms         | 264ms
+| C++                  |      | 10ms       | 763ms           | 436ms
+| Python               |      | 73ms       | 51 122ms        | 305ms
+| PyPy                 |      | 58ms       | 1 840ms         | 290ms
 
 ## Algorytm kmp
 
@@ -37,9 +37,9 @@ Czas zmierzony przy pomocy narzędzia time:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      | 3ms        | 751ms           | 9ms      |
-| Python               |      | 93ms       | 53 634ms        | 305ms
-| PyPy                 |      | 28ms       | 1 190ms         | 60ms
+| C++                  |      | 5ms        | 900ms           | 11ms
+| Python               |      | 87ms       |  52 761ms       | 302ms
+| PyPy                 |      | 64ms       |  1 532ms        | 257ms
 
 ## Automat skończony 
 
@@ -47,12 +47,15 @@ Czas zmierzony przy pomocy sio2jail:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      |            |                 |  
-| Python               |      | 160ms      | 158 177ms       | 3652ms
+| C++                  |      | 4ms        |  5 196ms        | 35ms 
+| Python               |      | 159ms      |  157 988ms      | 566ms
+| PyPy                 |      | 69ms       |  36 666ms       | 163ms
+
 
 Czas zmierzony przy pomocy narzędzia time:
 
 | Sposób implementacji | Kod  | Test "art" | Test "kruszwil" | Test "AAB" |  
 |:--------------------:|:----:|:----------:|:---------------:|:----------:|
-| C++                  |      |            |                 |            |
-| Python               |      | 72ms       | 36 140ms        | 862ms
+| C++                  |      | 19ms       | 4 934ms         | 56ms       |
+| Python               |      | 58ms       | 31 509ms        | 132ms
+| PyPy                 |      | 83ms       | 6 758ms         | 106ms
