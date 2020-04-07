@@ -24,7 +24,7 @@ SuffixTrie::SuffixTrie(std::istream &input,bool (*func)(char), const char mark_r
     for (int i = 0; i <= len; i++) {
         input.clear();
         input.seekg(i, std::ifstream::beg);
-        r->append(input, this->ommit);
+        this->last_leaf = r->append(input, this->ommit);
     }
     this->root = r;
 }

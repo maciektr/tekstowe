@@ -4,20 +4,19 @@
 
 #include "Node.h"
 
-void Node::append(std::istream &in, bool (*ommit)(char)){
+Node *Node::append(std::istream &in, bool (*ommit)(char)){
     char c;
-//    std::cout<<"AP"<<std::endl;
     while(true)
         if(!(in>>c))
-            return;
+            return nullptr;
         else if (!ommit(c))
             break;
-    std::cout<<c;
-    if(!this->next.contains(c)) {
-        Node *nnn = new Node(c);
-        this->next[c] = nnn;
-    }
-    this->next[c]->append(in);
+
+    if(!this->next.contains(c))
+        this->next[c] = new Node(c);
+
+    Node *ap = this->next[c]->append(in);
+    return ap == nullptr ? this->next[c] : ap;
 }
 bool Node::isLeaf(){
     return this->next.empty();

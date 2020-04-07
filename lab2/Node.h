@@ -12,7 +12,7 @@ class Node {
 public:
     Node(char c) : letter(c) {}
 
-    void append(std::istream &in, bool (*ommit)(char) = {[](char c) { return false; }});
+    Node *append(std::istream &in, bool (*ommit)(char) = {[](char c) { return false; }});
     bool isLeaf();
 
 #ifdef DEBUG

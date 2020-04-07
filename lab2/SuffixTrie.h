@@ -22,6 +22,8 @@ public:
 
 private:
     bool (*ommit)(char) = [](char c){return false;};
+
+    Node *last_leaf=nullptr;
 };
 
 
