@@ -6,7 +6,7 @@ using namespace std;
 #include "SuffixTrie.h"
 
 int main() {
-//    const string path = "../ustawa_250.txt";
+//    const string path = "../test/ustawa_250.txt";
     const string path = "../test/t.1";
     SuffixTrie::assertDelimiter(path.c_str());
 
