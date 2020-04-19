@@ -14,8 +14,13 @@ class HuffmanTree:
             res += ' ' * h + '1 -> ' + self.right.__str__(h + 1)
             return res
 
-        def code(self, char):
-            return ''
+        def code(self, char, path=''):
+            if self.right is None:
+                return path if self.left == char else None
+            left_resp = self.left.code(char, path + '0')
+            if left_resp is not None:
+                return left_resp
+            return self.right.code(char, path + '1')
 
     def __init__(self, letter_counts):
         nodes = []
@@ -45,8 +50,10 @@ class HuffmanTree:
                 leafs = leafs[1:]
             else:
                 internal_nodes = internal_nodes[1:]
-        # return internal_nodes[0]
         self.root = internal_nodes[0]
 
     def get_root(self):
         return self.root
+
+    def code(self, character):
+        return self.get_root().code(character)
