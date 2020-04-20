@@ -17,13 +17,23 @@ class HuffmanTree:
             res += ' ' * h + '1 -> ' + self.right.__str__(h + 1)
             return res
 
+        def is_leaf(self):
+            return self.right is None
+
         def code(self, char, path=bitarray('')):
-            if self.right is None:
+            if self.is_leaf():
                 return path if self.left == char else None
             left_resp = self.left.code(char, path + bitarray('0'))
             if left_resp is not None:
                 return left_resp
             return self.right.code(char, path + bitarray('1'))
+
+        def decode(self, bit):
+            if self.is_leaf():
+                return None, self.left
+            if bit:
+                return self.right, None
+            return self.left, None
 
     def __init__(self, letter_counts):
         nodes = []
@@ -54,9 +64,15 @@ class HuffmanTree:
             else:
                 internal_nodes = internal_nodes[1:]
         self.root = internal_nodes[0]
+        self.dec_node = self.root
 
     def get_root(self):
         return self.root
 
     def code(self, character):
         return self.get_root().code(character)
+
+    def decode(self, bit):
+        node, char = self.dec_node.decode(bit)
+        self.dec_node = node if node is not None else self.root
+        return char
