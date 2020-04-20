@@ -21,7 +21,7 @@ class Compressor:
 
     def write_header(self, file_path, count):
         characters = list(map(lambda x: x[0], reversed(sorted([(a, w) for a, w in count.items()], key=lambda x: x[1]))))
-        print(count)
+        # print(count)
         c_len = 0
         with open(file_path, 'wb') as file:
             chars_b = []
@@ -33,20 +33,20 @@ class Compressor:
             # print(c_len)
             for c_b in chars_b:
                 file.write(c_b)
+            for char in characters:
+                file.write(struct.pack(self.__dist_t, count[char]))
 
     def read_header(self, file_path):
         with open(file_path, 'rb') as file:
-            n = struct.unpack(self.__alphabet_sizet, file.read(4))[0]
-            # print(n)
+            n = struct.unpack(self.__alphabet_sizet, file.read(struct.calcsize(self.__alphabet_sizet)))[0]
             chars_b = file.read(n)
             characters = chars_b.decode(self.encoding)
-            i = 0
             res = {}
-            for char in reversed(characters):
-                res[char] = i
-                i += 1
-            print(res)
-            return res
+            for char in characters:
+                dist = struct.unpack(self.__dist_t, file.read(struct.calcsize(self.__dist_t)))[0]
+                res[char] = dist
+            seek_point = struct.calcsize(self.__alphabet_sizet) + n + len(characters) * struct.calcsize(self.__dist_t)
+            return res , seek_point
 
     def compress(self, file_path, out_path):
         counts = self.count_in_file(file_path)
@@ -65,7 +65,7 @@ class Compressor:
             print(c, tree.code(c))
 
     def decompress(self, file_path, out_path):
-        counts = self.read_header(file_path)
+        counts, seek_point = self.read_header(file_path)
         # print(counts)
         tree = HuffmanTree(counts)
         print('--------------------------')
@@ -73,16 +73,15 @@ class Compressor:
             print(c, tree.code(c))
 
         with open(file_path, 'rb') as file, open(out_path, 'w') as out:
-            n = struct.unpack(self.__alphabet_sizet, file.read(4))[0]
-            file.seek(4 + n)
+            file.seek(seek_point)
             bit_read = bitarray()
             bit_read.frombytes(file.read())
             print(bit_read)
-            # i = 0
+            code = ''
             for bit in bit_read:
+                code += '1' if bit else '0'
+
                 resp = tree.decode(bit)
-                # if i < 10:
-                #     print(bit, resp)
-                #     i+=1
                 if resp is not None:
                     out.write(resp)
+                    code = ''
