@@ -1,4 +1,6 @@
 lab3/files/wikipedia-tail-kruszwil.txt
+lab3/out_comp.txt
+lab3/out_decomp.txt
 lab1/wikipedia-tail-kruszwil.txt
 venv/
 # Created by https://www.gitignore.io/api/c,c++,cmake,python,clion+all,pycharm+all,jupyternotebooks,visualstudiocode
