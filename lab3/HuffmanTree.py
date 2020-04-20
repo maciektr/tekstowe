@@ -20,6 +20,11 @@ class HuffmanTree:
         def is_leaf(self):
             return self.right is None
 
+        def get_char(self):
+            if not self.is_leaf():
+                raise BaseException('This Node is not a leaf')
+            return self.left
+
         def code(self, char, path=bitarray('')):
             if self.is_leaf():
                 return path if self.left == char else None
@@ -29,10 +34,12 @@ class HuffmanTree:
             return self.right.code(char, path + bitarray('1'))
 
         def decode(self, bit):
-            if self.is_leaf():
-                return None, self.left
             if bit:
+                if self.right.is_leaf():
+                    return None, self.right.get_char()
                 return self.right, None
+            if self.left.is_leaf():
+                return None, self.left.get_char()
             return self.left, None
 
     def __init__(self, letter_counts):
