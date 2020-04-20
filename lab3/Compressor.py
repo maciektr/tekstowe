@@ -7,7 +7,7 @@ class Compressor:
     def __init__(self, encoding='UTF-8'):
         self.encoding = encoding
         self.__alphabet_sizet = 'I'
-        self.__dist_t = 'H'
+        self.__dist_t = 'I'
 
     @staticmethod
     def count_in_file(path):
