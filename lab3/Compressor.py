@@ -4,10 +4,10 @@ import struct
 
 
 class Compressor:
-    def __init__(self, encoding='UTF-8'):
+    def __init__(self, encoding='UTF-8', alhabet_size_type='I', characters_count_type='I'):
         self.encoding = encoding
-        self.__alphabet_sizet = 'I'
-        self.__dist_t = 'I'
+        self.__alphabet_sizet = alhabet_size_type
+        self.__dist_t = characters_count_type
 
     @staticmethod
     def count_in_file(path):
