@@ -13,10 +13,13 @@ class Compressor:
     def count_in_file(path):
         char_dist = {}
         with open(path, 'r') as f:
-            for line in f.readlines():
-                for word in line.split():
-                    for char in word:
-                        char_dist[char] = char_dist.get(char, 0) + 1
+            # for line in f.readlines():
+            #     for word in line.split():
+            #         for char in word:
+            char = f.read(1)
+            while char:
+                char_dist[char] = char_dist.get(char, 0) + 1
+                char = f.read(1)
         return char_dist
 
     def write_header(self, file_path, count):
@@ -54,12 +57,19 @@ class Compressor:
         self.write_header(out_path, counts)
 
         with open(file_path, 'r') as file, open(out_path, 'ab') as out:
-            for line in file.readlines():
-                out_line = bitarray()
-                for word in line.split():
-                    for char in word:
-                        out_line += tree.code(char)
-                out.write(out_line.tobytes())
+            # for line in file.readlines():
+            #     out_line = bitarray()
+            #     for word in line.split():
+            #         for char in word:
+            #             out_line += tree.code(char)
+            #     out.write(out_line.tobytes())
+            out_line = bitarray()
+            char = file.read(1)
+            while char:
+                out_line += tree.code(char)
+                char = file.read(1)
+            out.write(out_line.tobytes())
+
 
         for c in map(lambda x: x[0], sorted(counts.items(), key=lambda x: -x[1])):
             print(c, tree.code(c))
