@@ -18,9 +18,9 @@ krótkim alfabetem polskim, a czas wykonania ogranicza praktyczność zastosowan
 zawierać tych informacji w pliku nagłówkowym. 
 
 ## Otrzymane wyniki
-| Rozmiar przed kompresją | Rozmiar po kompresji | Czas wykonania | 
-|:-----------------------:|:--------------------:|:--------------:|
-| 1.1kB | 0.825kB | 0.049s|
-| 9.6kB | 5.8kB | 0.277s|
-| 97.7kB| 55.9kB |3.811s| 
-| 1.0MB | 595.4kB | 119.829s|
+| Rozmiar przed kompresją | Rozmiar po kompresji | Współczynnik kompresji |  Czas kompresji | Czas dekompresji | 
+|:-----------------------:|:--------------------:|:----------------------:|:--------------:|:----------------:|
+| 1.1kB | 0.825kB | 25% | 0.058s | 0.043s
+| 9.6kB | 5.8kB | 39.5% | 0.238s | 0.063s
+| 97.7kB| 55.9kB | 42.7% | 3.46s | 0.223s 
+| 1.0MB | 0.595MB | 40.5% | 110.5s | 2.17s

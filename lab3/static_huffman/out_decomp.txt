@@ -1,0 +1,831 @@
+pozew musi zawierać także oświadczenie powoda że podane informacje są zgodnie z jego najlepszą wiedzą i przekonaniem prawdziwe oraz że przyjmuje on do wiadomości iż umyślne podanie nieprawdziwych informacji może skutkować zastosowaniem odpowiednich sankcji zgodnie z prawem państwa członkowskiego wydania
+pozew musi zawierać nazwy lub imiona i nazwiska oraz adresy stron a także w odpowiednich przypadkach ich przedstawicieli oraz oznaczenie sądu do którego kierowany jest pozew kwotę dochodzonego roszczenia w tym kwotę roszczenia głównego oraz stosownie do okoliczności odsetki kary umowne i koszty jeżeli powód dochodzi odsetek stawkę odsetek oraz okres za jaki żąda odsetek chyba że zgodnie z prawem państwa członkowskiego wydania odsetki ustawowe doliczane są automatycznie do roszczenia głównego uzasadnienie roszczenia w tym opis okoliczności wskazanych jako podstawa roszczenia oraz w odpowiednich przypadkach żądanych odsetek opis dowodów na poparcie roszczenia okoliczności uzasadniające właściwość sądu uzasadnienie transgranicznego art 72 rozporządzenia 1896/2006 ref name 0 sąd odrzuci pozew jeżeli nie spełnia on wymogów formalnych roszczenie jest nieuzasadnione powód nie przesłał odpowiedzi w terminach wyznaczonych przez sąd lub odrzucił propozycję zmiany pozwu
+sąd po wniesieniu pozwu rozpatruje sprawę jeżeli warunki wniesienia pozwu okazały się spełnione to zwykle w terminie 30 dni od wniesienia pozwu wydaje europejski nakaz zapłaty
+europejski nakaz zapłaty zawiera pouczenie że pozwany może zapłacić powodowi kwotę wskazaną w nakazie lub wnieść sprzeciw poprzez jego przesłanie sądowi wydania w terminie 30 dni od doręczenia mu nakazu art 123 ref name 0 sprzeciw od nakazu zapłaty stronie przysługuje prawo wniesienia sprzeciwu od europejskiego nakazu zapłaty
+sprzeciw musi zostać wysłany w terminie 30 dni od doręczenia nakazu pozwanemu
+wystarczy że pozwany w sprzeciwie wskaże ogólnie że kwestionuje roszczenie nie ma konieczności precyzowania powodów
+w razie wniesienia sprzeciwu nakaz taki traci moc a sprawa jest przekazana do zwykłego trybu cywilnego właściwego dla danego państwa
+jeżeli we wskazanym terminie sprzeciw nie wpłynie do sądu wydania nakazu zapłaty wówczas sąd ten stwierdza wykonalność europejskiego nakazu zapłaty i wykonalny nakaz przesyła powodowi art 18 ref ref ref name 0 uchylenie procedury exe:uatur jest to następny etap po wydaniu przez sąd nakazu zapłaty
+uchylenie procedury exe:uatur oznacza uzyskanie zezwolenia na wykonanie w jednym państwie wyroku wydanego w innym państwie
+europejski nakaz zapłaty który stał się wykonalny w państwie członkowskim wydania jest uznawany i wykonywany w innych państwach członkowskich bez potrzeby stwierdzania wykonalności i bez możliwości sprzeciwienia się jego uznaniu
+procedura udziela państwom swobody w przepływie europejskiego nakazu zapłaty co sprawia że postępowanie nakazowe staje si łatwiejsze
+wykonanie europejskiego nakazu zapłaty postępowanie wykonawcze podlega prawu państwa członkowskiego wykonania
+europejski nakaz zapłaty który stał się wykonalny jest wykonywany na takich samych warunkach jak wykonalne orzeczenie wydane w państwie członkowskim wykonania
+zgodnie z art 21 ust 2 ref name 0 rozporządzenia do wniosku o wszczęcie postępowania egzekucyjnego należy dołączyć odpis europejskiego nakazu zapłaty którego wykonalność została stwierdzona przez sąd wydania i który spełnia wymogi niezbędne do stwierdzenia jego autentyczności w razie potrzeby tłumaczenie europejskiego nakazu zapłaty na język urzędowy państwa członkowskiego wykonania lub jeżeli w tym państwie członkowskim obowiązuje kilka języków urzędowych na język urzędowy lub jeden z języków urzędowych w jakim zgodnie z prawem tego państwa członkowskiego prowadzi się postępowanie sądowe w miejscu gdzie dochodzi się wykonania lub na inny język wskazany przez państwo członkowskie wykonania jako akceptowany
+każde państwo członkowskie może wskazać język lub języki urzędowe instytucji unii europejskiej inne niż jego własny język urzędowy które może zaakceptować do celów wydania europejskiego nakazu zapłaty
+tłumaczenie musi być poświadczone przez osobę posiadającą wymagane uprawnienia w jednym z państw członkowskich
+odmowa wykonania na wniosek pozwanego sąd właściwy w państwie członkowskim wykonania odmawia wykonania jeżeli europejskiego nakazu zapłaty nie można pogodzić z wcześniejszym orzeczeniem lub nakazem wydanym w jednym z państw członkowskich albo w państwie trzecim pod warunkiem że wcześniejsze orzeczenie lub nakaz zostały wydane w odniesieniu do tego samego przedmiotu sporu i dotyczyły tych samych stron oraz wcześniejsze orzeczenie lub nakaz spełniają warunki niezbędne do uznania ich w państwie członkowskim wykonania oraz niemożność pogodzenia nakazu z wcześniejszym orzeczeniem lub nakazem nie mogła być podniesiona w formie zarzutu w postępowaniu sądowym w państwie członkowskim wydania
+na wniosek sąd odmawia również wykonania jeżeli i w takim zakresie w jakim pozwany zapłacił powodowi kwotę orzeczoną w europejskim nakazie zapłaty
+w żadnym przypadku europejski nakaz zapłaty nie może być przedmiotem ponownego badania pod względem merytorycznym w państwie członkowskim wykonania ref name 0 opłaty sądowe łączne opłaty sądowe w przypadku postępowania w sprawie europejskiego nakazu zapłaty oraz zwykłego postępowania cywilnego które toczy się w przypadku wniesienia sprzeciwu od europejskiego nakazu zapłaty w państwie członkowskim nie mogą być wyższe niż opłaty sądowe w przypadku zwykłego postępowania cywilnego które odbyłoby się bez poprzedzającego je postępowania w sprawie europejskiego nakazu zapłaty w tym państwie członkowskim
+do celów niniejszego rozporządzenia uznaje się że opłaty sądowe obejmują opłaty i należności na rzecz sądu których kwota jest ustalana zgodnie z prawem krajowym ref name 0 do celów niniejszego rozporządzenia stosuje się następujące definicje 1 członkowskie wydania” oznacza państwo członkowskie w którym europejski nakaz zapłaty został wydany 2 członkowskie wykonania” oznacza państwo członkowskie w którym wnioskuje się o wykonanie europejskiego nakazu zapłaty 3 oznacza każdy organ państwa członkowskiego właściwy w zakresie europejskich nakazów zapłaty lub w innych związanych z tym sprawach 4 wydania” oznacza sąd który wydaje europejski nakaz zapłaty ref name 0 menu nawigacyjne
+
+sur sports club ar
+ßيلا ö³ر يدراي…ا omański klub piłkarski grający w pierwszej lidze omańskiej mający siedzibę w mieście sur
+historia klub został założony w 1969 roku
+w swojej historii klub dwukrotnie wywalczył tytuł mistrza omanu w sezonach 1994/1995 i 1995/1996 ref ref
+zdobył również trzy puchary omanu w 1973 1992 i 2007 ref ref
+sukcesy oman professional league mistrzostwo 2 1994/1995 1995/1996 3 1996/1997 1997/1998 2001/2002 puchar omanu zwycięstwo 3 1973 1992 2007 2 2006 2015 superpuchar omanu 1 2008 stadion swoje domowe mecze klub rozgrywa na stadionie o nazwie sur youth complex położonym w mieście sur
+stadion może pomieścić 8000 widzów ref ref
+przypisy
+
+wyspa euzebia największa wyspa na jeziorze zegrzyńskim na terenie gminy nieporęt
+znajduję się w ujściu rzeki rządzy będącej ostatnim lewym dopływem narwi
+wyspa jest prawie w całości zalesiona jedynie od strony strony północnej występuje niewielka polana porośnięta roślinnością trawiastą oraz krzakami
+praktycznie ze wszystkich stron otaczają ją gęste trawy z wyjątkiem strony zachodniej na której znajduje się maleńka plaża oraz fragment obetonowanego brzegu w części północnej
+w zależności od poziomu wody w zalewie plaża jest bardziej lub mniej odsłonięta
+na wyspie znajdują się również ruiny domku który teraz służy za składowisko nieczystości oraz drugiego zlokalizowanego nieopodal skrytki
+przed powstaniem jeziora zegrzyńskiego na wyspie znajdowała się droga łącząca ówczesną miejscowość myszyniec z rynią
+
+tor books imprint firmy wydawniczej m st martin s press posiadającej siedzibę w nowym jorku
+publikuje przede wszystkim książki fantastycznonaukowe oraz fantasy
+prowadzi także magazyn tor com ref ref
+został założony w 1980 przez toma doherty jako imprint jego firmy tom doherty associates
+w 1987 firma została przekształcona w imprint st martin s press ref ref
+autorzy pod szyldem tego imprintu wydawali tacy autorzy jak kevin j anderson steven brust orson scott card jonathan carroll charles de lint philip k dick cory doctorow steven erikson terry goodkind steven gould brian herbert glen hirshberg robert jordan andre norton harold robbins brandon sanderson john scalzi v e schwab skyler white i gene wolfe ref ref ref ref
+przypisy
+
+jacek piotr hoffmann ur 24 listopada 1963 w gubinie polski samorządowiec emerytowany wojskowy z wykształcenia ekonomista i politolog w latach 2006–2012 starosta powiatu krośnieńskiego w latach 2012–2013 wicemarszałek województwa lubuskiego
+życiorys absolwent liceum ogólnokształcącego w słubicach oraz wyższej szkole oficerskiej służb kwatermistrzowskich w poznaniu z dyplomem podporucznika ekonomisty dyplomowanego
+później ukończył studia magisterskie z politologii w wyższej szkole pedagogicznej w zielonej górze
+w latach 1986–1999 służył w jednostkach wojskowych 4 lubuskiej dywizji zmechanizowanej w krośnie odrzańskim po czym przeszedł na emeryturę
+zaangażował się w działalność samorządową
+w latach 1999–2006 był skarbnikiem powiatu krośnieńskiego następnie w grudniu 2006 został jego starostą
+w 2006 i 2010 zdobywał mandat radnego powiatu krośnieńskiego
+początkowo startował z list lokalnego komitetu w 2009 wstąpił do platformy obywatelskiej
+w marcu 2012 po zdobyciu większości w radzie powiatu przez sojusz lewicy demokratycznej i lokalne ugrupowania został odwołany z fotela starosty
+21 marca 2012 wybrano go wicemarszałkiem województwa lubuskiego odpowiedzialnym m in za gospodarkę infrastrukturę nieruchomości geodezję i planowanie przestrzenne
+złożył rezygnację funkcji z dniem 13 maja 2013 oficjalnie z powodów osobistych
+w 2014 ponownie wybrany do rady powiatu w 2018 bez powodzenia ubiegał się o reelekcję
+został później m in członkiem rady nadzorczej prywatnej spółki
+życie prywatne mieszka w krośnie odrzańskim
+żonaty ma syna
+przypisy
+
+po pierwsze osobiście powątpiewam w to że każdy dowolnie niszowy rodzaj wina jest od razu autoency
+źródeł brak
+w dodatku googlowanie zwraca raczej jakieś wina portugalskie a nie mołdawskie dyskusja 14q47 1 lut 2019 cet od siebie tylko dodam że takie wino mołdawskie
+na temat encyklopedyczności się nie wypowiadam nie wiem gdzie jest poprzeczka dyskusja 14q58 1 lut 2019 cet
+
+wielopraca ang multiwork lub multiple jobholding świadczenie pracy albo wykonywanie zadań dla co najmniej dwóch niezależnych od siebie pracodawców ref name lipi agnieszka lipińska grobelny motywacja do pracy analiza porównawcza w polityka społeczna nr 10/2018 s 19 issn 0137-4729 ref ref ref
+wielopraca jest efektem rozwoju elastycznych metod zatrudnienia oraz elastycznego czasu pracy i może być potencjalnym remedium na złagodzenie problemu niedoboru talentów na rynku pracy jak również wpływać może na tworzenie nowych miejsc pracy
+termin nie jest tożsamy z wieloetatowością ponieważ polega na świadczeniu pracy dla co najmniej dwóch organizacji w ramach jednego etatu lub innej formy zatrudnienia
+nie jest też tożsamy z wielozadaniowością która polega na łączeniu wielu zadań w jednym przedsiębiorstwie ref name lipi
+z obliczeń eurostatu wynika że na terenie unii europejskiej najwięcej wielopracowników znajduje zatrudnienie kolejno w niemczech francji wielkiej brytanii i polsce dane na pierwszy kwartał 2018 ref name lipi
+w latach 2005-2011 polska zajmowała drugie miejsce w tym zestawieniu ref agnieszka lipińska grobelny psychologiczny kontekst wielopracy analiza różnic płciowych w polskie forum psychologiczne tom 23 numer 4 rok 2018 s 743 ref
+przypisy
+
+pałac rady kraju mołd rum
+palatul sfatului êîrii ref ref ref name 2 ref budynek w kiszyniowie pierwotnie siedziba iii gimnazjum męskiego położony przy ul alexeia mateevicia 111
+w latach 1917–1918 była to siedziba obrad parlamentu autonomicznej mołdawii rady kraju
+wpisany do rejestru zabytków mołdawii o znaczeniu narodowym ref name 0 ref
+historia budynek został wzniesiony według projektu władimira cyganki z przeznaczeniem na sierociniec i pensję dla 70 chłopców z rodzin szlacheckich
+w 1905 r gdy ukończono prace budowlane został jednak przekazany ministerstwu oświaty które zdecydowało o otwarciu w nim iii gimnazjum męskiego ref name 0
+dwupiętrowy budynek został wzniesiony na planie przypominającym cyryliczną literę ç w stylu nawiązującym do klasycyzmu francuskiego i oddzielony od ulicy obszernym ogrodem ref name 0
+w jego wnętrzu oprócz sal lekcyjnych znajdowała się szkolna cerkiew św szczepana ref name 2
+w 1914 r w obiekcie urządzono szpital wojskowy ref name 0
+w 1917 r dawne gimnazjum stało się siedzibą rady kraju parlamentu besarabii która uzyskała autonomię po rewolucji lutowej w rosji ref name 0
+w nim właśnie rada podjęła 2 grudnia 1917 r decyzję o utworzeniu mołdawskiej republiki demokratycznej o statusie porównywalnym ze statusem wielkiego księstwa finlandii przed 1917 r ref name 6 ch
+king the moldovans
+romania russia and the politics of culture hoover institution press stanford university press stanford 2000 s 33 ref a 27 marca 1918 r przegłosowała zgodę na przyłączenie besarabii do rumunii ref name 7 ref name 2
+podczas głosowania siedziba parlamentu była otoczona przez wojska rumuńskie które w styczniu tego samego roku interweniowały w besarabii wypierając z niej bolszewików ref name 7 ch
+king the moldovans s 35 ref
+o funkcjonowaniu mołdawskiego parlamentu w budynku przypomina tablica zawieszona na jego elewacji frontowej ref name 1 ref
+w dwudziestoleciu międzywojennym w budynku ponownie mieściło się męskie gimnazjum im alexandru donicia ref name 2
+przed obiektem znajdowała się kopia figury wilczycy kapitolińskiej która miała symbolizować rzymskie pochodzenie rumunów
+następnie w w 1934 r budynek przekazano zamiejscowemu wydziałowi nauk agronomicznych uniwersytetu aleksandra cuzy w jassach
+podczas ii wojny światowej obiekt został poważnie uszkodzony i w latach 50 był remontowany według projektu e spirera
+zajmował go instytut rolniczy a następnie akademia sztuk pięknych przemianowana później na akademię muzyczną teatralną i plastyczną ref name 0
+w pierwszych dekadach xxi w stan techniczny budynku był bardzo zły ref ref obiekt wymagał pilnego remontu ref name 1
+przypisy
+
+robert james rallison ur 14 maja 1996 znany jako theodd1sout amerykański artysta animator i youtuber ref ref
+w styczniu 2019 roku jego kanał na platformie youtube osiągnął 10 milionów subskrypcji
+biografia życie prywatne rallison urodził się 14 maja 1996 roku w arizonie w stanach zjednoczonych jako jedno z dwóch bliźniąt i piątki dzieci attorneya i janette rallisonów ref ref ref ref
+obecnie zamieszkuje w los angelens w kalifornii w stanach zjednoczonych
+komiksy internetowe rallison zaczął publikować swoje komiksy internetowe z serii zatytułowanej theodd1sout 12 czerwca 2012 roku na serwisie tumblr ref name auto ref później także dodając je na stronie ifunny ref ref
+swoje prace publikuje do dziś
+kariera na platformie youtube 30 sierpnia 2014 roku rallison otworzył swój kanał na platformie youtube nazwany theodd1sout comic gdzie zaczął umieszczać swoje filmy animowane w których przytaczał historie ze swojego życia oraz wygłaszał swoje myśli i opinie
+po kilku latach powolne wzrostu w kwietniu 2016 jego kanał odnotował znaczący wzrost subskrypcji z 278 do 400 ref ref jego filmy dotyczące pracy w sieci barów szybkiej obsługi subway określaną w nich jako zostały opisane na popularnym blogu kulinarnym foodbeast ref ref
+autor strony peter pham określił filmy rallisona jako i prześmieszne” ref ref ref ref
+w 2017 roku dave trumbore z collidera nazwał rallisona jednym z pięciu youtuberów na olbrzymi sukces” ref ref
+w 2018 jego kanał pozytywnie oceniła kristin brantley ze strony culturess ref ref
+2 grudnia 2017 james rallison otworzył swój drugi kanał na youtubeüie zatytułowany theodd2sout na którym zaczął umieszczać materiały nie wymagające animacji
+3 kwietnia 2018 roku kanał ten osiągnął milion subskrypcji ref name 0 ref
+19 lipca 2018 rallison na swoim kanale opublikował utwór life is fun wykonywany wspólnie z boyinabandem która wytworzyła ponad 53,8 miliona wyświetleń
+w 2018 roku został nominowany na 8th streamy awards w kategorii animowane ref ref ref ref
+jego animowana postać pojawiła się w napisach końcowych filmu youtube rewind the shape of 2017 oraz youtube rewind 2018 everyone controls rewind gdzie otrzymał rolę mówioną
+24 stycznia 2019 roku jego główny kanał uzyskał ponad 10 milionów subskrypcji ref name 0
+inne dzieła rallison napisał książkę the odd 1s out how to be cool and other things i definitely learned from growing up która została opublikowana 31 lipca 2018 roku przez wydawnictwo tarcherperigee ref ref ref name auto
+zajęła ona 12 miejsce w kategorii w miękkiej oprawie” na liście bestsellerów 13 kwietnia 2018 magazynu publishers weekly ref ref dyskografia life is fun wraz z boyinabandem 2018 filmografia animacja 2017 youtube rewind the shape of 2017 2018 youtube rewind 2018 everyone controls rewind użyczenie głosu 2018 how it should have ended jako martha odcinek 138
+2018 youtube rewind 2018 everyone controls rewind jako on sam książki the odd 1s out how to be cool and other things i definitely learned from growing up 31 czerwca 2018 źródła linki zewnętrze ang na platformie youtube ang
+
+james rallison
+
+tom doherty ur 23 kwietnia 1935 amerykański wydawca a także założyciel imprintu zajmującego się wydawaniem literatury fantasy i science fiction tor books ref ref
+kariera w latach 50 i 60 pracował jako wydawca książek w tembo books od 1972
+w 1975 stał się wydawcą innej firmy także należącej do grosset dunlap o nazwie ace books wydającą fantastykę naukową
+w 1980 odszedł tworząc swoją własną firmę tor books
+miał wtedy 44 lata ref ref
+wydawnictwo doherego w 1987 stała się imprintem st martin s press
+obecnie obie firmy należą do holtzbrinck publishers których właścicielem jest macmillan publishers
+doherty nadal jest prezesem i wydawcą tom doherty associates llc wydającym pod szyldami tor forge orb starscape i tor teen
+nagrody w 2005 doherty otrzymał nagrodę world fantasy award w kategorii lifetime achievement na world fantasy convention za swój wkład w gatunek fantasy ref ref
+przypisy
+
+jisraüel amir
+
+al orouba sporting club ar
+ßيلا يد„ر³èò يدراي…ا omański klub piłkarski grający w pierwszej lidze omańskiej mający siedzibę w mieście sur
+historia klub został założony w 1970 roku
+w swojej historii klub czterokrotnie wywalczył tytuł mistrza omanu w sezonach 1999/2000 2001/2002 2007/2008 i 2014/2015 ref ref
+zdobył również trzy puchary omanu w 1973 1992 i 2007 ref ref
+sukcesy oman professional league mistrzostwo 4 1999/2000 2001/2002 2007/2008 2014/2015 5 1991/1992 2000/2001 2004/2005 2006/2007 2010/2011 puchar omanu zwycięstwo 3 1993 2001 2010 2015 2 1997 2000 superpuchar omanu zwycięstwo 4 2000 2002 2008 2011 stadion swoje domowe mecze klub rozgrywa na stadionie o nazwie sur youth complex położonym w mieście sur
+stadion może pomieścić 8000 widzów ref ref
+przypisy
+
+steven karl zoltрn brust ur 23 listopada 1955 amerykański pisarz fantasy i science fiction pochodzenia węgierskiego ref ref
+jest najbardziej znany z powieści o zabójcy imieniem vlad taltos żyjącym w świecie nazywający się dragaer
+w polsce ukazało się pięć tomów tej serii
+współtworzył między innymi z pisarką skyler white ref ref
+jako perkusista piosenkarz i autor tekstów brust nagrał jeden solowy album i dwa albumy jako członek cats laughing
+był także współautorem piosenek na dwóch albumach nagranych w połowie lat 90 przez zespół boiled in lead
+osiągnięcia opowiadanie brusta when the bow breaks zostało nominowane do nagrody nebula w 1999 ref ref
+tekst five hundred years after był nominowany do nagrody locus poll w 1995 roku kategoria best fantasy novel
+inne jego powieści nominowane do tej nagrody to brokedown palace the gypsy agyar oraz freedom necessity ref ref
+wybrana twórczość seria o vladzie taltosie jhereg 1983 w polsce w 2002 yendi 1984 w polsce w 2002 teckla 1987 w polsce w 2002 taltos 1988 w polsce w 2003 fenix 1990 w polsce w 2003 athyra 1993 orca 1996 dragon 1998 issola 2001 dzur 2006 jhegaala 2008 iorich 2010 tiassa 2011 hawk 2014 vallista 2017 seria the khaavren romances the phoenix guards 1991 five hundred years after 1994 the viscount of adrilankha opublikowane w trzech tomach the paths of the dead 2002 the lord of castle black 2003 sethra lavode 2004 powieści poza seriami brokedown palace ilustracje autorstwa alana lee 1986 the baron of magister valley zapowiedź brak daty publikacji przypisy
+
+plac jana pawła ii plac znajdujący się w centrum rybnika przed bazyliką św antoniego padewskiego na skrzyżowaniu ul powstańców śląskich z ul mikołowską
+znajduje się na nim czterometrowy pomnik jana pawła ii wykonany z brązu
+plac w 2012 r został zrewitalizowany na podstawie projektu pracowni toprojekt ref ref
+przypisy
+
+halo ziemia debiutancki album filipa lato wydany 5 października 2018 roku
+album dotarł do 34 miejsca polskiej listy przebojów olis ref ref
+lista utworów pozycja na liście sprzedaży przypisy
+
+saham club ar
+ßيلا öøи omański klub piłkarski grający w pierwszej lidze omańskiej mający siedzibę w mieście saham
+historia klub został założony w 1970 roku
+w swojej historii klub czterokrotnie wywalczył tytuł mistrza omanu w sezonach 1999/2000 2001/2002 2007/2008 i 2014/2015 ref ref
+zdobył również trzy puchary omanu w 1973 1992 i 2007 ref ref
+sukcesy puchar omanu zwycięstwo 2 2009 2016 puchar ligi omańskiej zwycięstwo 1 2013 1 2012 superpuchar omanu zwycięstwo 2 2010 2016 gcc champions league 1 2014 stadion swoje domowe mecze klub rozgrywa na stadionie o nazwie sohar regional sports complex położonym w mieście sohar
+stadion może pomieścić 19000 widzów ref ref
+przypisy
+
+antoni abgar jaegermann ur 1852 zm 1907 c k urzędnik
+życiorys urodził się w 1852
+ukończył studia po czym w 1873 podjął pracę w służbie państwowej austro węgier
+był zatrudniony w c k namiestnictwie starostwie c k powiatu stanisławowskiego biurze prezydialnym c k namiestnictwa oraz w ministerstwie spraw wewnętrznych
+później był kierownikiem starostwa c k powiatu tłumackiego następnie stanisławowskiego
+w 1889 mianowany radcą namiestnictwa i referentem krajowej dyrekcji funduszu propinacyjnego
+był długoletnim kierownikiem galicyjskiego funduszu propinacyjnego
+w 1909 mianowany rządowym komisarzem w kasie oszczędności
+otrzymał tytuł
+c k radcy dworu
+zmarł w grudniu 1907 we lwowie
+bibliografia
+
+nazmi albadawi arab
+ßтиا يدèل³ا ur 24 sierpnia 1991 w raleigh palestyński piłkarz grający na pozycji ofensywnego pomocnika
+od 2018 jest zawodnikiem klubu fc cincinnati
+kariera piłkarska swoją karierę piłkarską albadawi rozpoczął w college u w klubie north carolina state wolfpack w którym grał w latach 2010-2013
+w 2012 roku został zawodnikiem carolina railhawks i początkowo grał w nim w zespole u 23
+w 2014 roku awansował do pierwszego zespołu
+13 kwietnia 2014 zadebiutował w nim w nasl w zremisowanym 1q1 wyjazdowym meczu z indy eleven
+w zespole carolina railhawks zwanego później north carolina fc grał do końca 2017 roku
+w 2018 roku albadawi został zawodnikiem fc cincinnati grającego w usl championship
+swój debiut w nim zaliczył 15 kwietnia 2018 w zremisowanym 1q1 wyjazdowym meczu z bethlehem steel i w debiucie zdobył gola
+w sezonie 2019 gra z fc cincinnati w major league soccer
+kariera reprezentacyjna w reprezentacji palestyny albadawi zadebiutował 16 listopada 2018 w wygranym 2q1 towarzyskim meczu z pakistanem
+w 2019 roku został powołany do kadry na puchar azji 2019
+bibliografia
+
+john clayton
+
+karas ur 1958 duchowny koptyjskiego kościoła ortodoksyjnego od 2013 biskup pomocniczy al mahalla al kubra
+życiorys w 1982 złożył śluby zakonne w monasterze św samuela
+sakrę biskupią otrzymał 16 listopada 2013
+bibliografia
+
+nazwa pliku u autora z kodem hasła d basic _ multilingual _ ranking _ 2019-02-01 _ 1 pl ponieważ ta strona nie jest tworzona bezpośrednio w edytorze wiki ale jest efektem automatycznego pozyskiwania danych skryptem to proszę uwagi dotyczące tej strony zgłaszać do lub na adres dorozynskij at poczta kropa onet kropa pl bo mogę uwzględnić je w moich źródłach i zrobić zmianę całości natomiast gdybym nie reagował więcej niż pięć dni to zmiany można zrobić tutaj
+dziękuję za współpracę
+ency nazwy własne języków są skorelowane z danymi z eta wikimedia org wiki list _ of _ wikipedias table
+ostatnia weryfikacja 1 stycznia 2018 r
+center center zobacz też aktualne zestawienie wikipedii oraz i
+
+john clayton 1686–1773 amerykański botanik john clayton 1728–1800 brytyjski malarz john m clayton 1796–1856 amerykański prawnik i polityk senator z delaware sekretarz stanu john m clayton 1840–1889 amerykański polityk kongresmen z arkansas john clayton 1940–2003 australijski aktor john clayton ur 1952 amerykański muzyk jazzowy tarzan john clayton postać fikcyjna
+
+drzewo bartne drzewo na którym znajduje się barć lub kłoda bartna
+charakterystyka drzew bartnych drzew najczęściej drzewami bartnymi były sosny określane też jako chwoje rzadziej lipy wiązy jodły świerki dęby
+według jednej z hipotez słowo sosna mogło pierwotnie oznaczać drzewo z barcią dziuplą i pochodzić od formy sop sna wywodzącej się od słów prasłowianskich słów sopeti dąćü i soją sojiti drzewo łupać szczapyü
+drzewa na drzewa bartne wybierano tylko żywe drzewa
+drzewo takie musiało mieć na wysokości człowieka średnicę przynajmniej 1 metra by w wyniku działania wiatru pień nie złamał się w miejscu wydrążenia barci
+drzewo z kłodą bartną musiało zaś utrzymać kłodę ważącą często powyżej 100 kilogramów
+dlatego zwykle na drzewa bartne wybierano sosny mające wiek powyżej 120 lat
+na drzewa bartne nadawały się sosny o cienkiej gładkiej i płytko spękanej korze z cienką warstwę bielu zaś nie nadały się drzewa o grubej i głęboko spękanej korze z dużą warstwą bielu
+drzewo powinno być też proste lub lekko pochylone co ułatwiało bartnikom wspinanie się
+aby zahamować wzrost drzewa wzwyż i spowodować szybsze zwiększanie grubości pnia a także zabezpieczyć drzewo przed wywróceniem się lub złamaniem przez wiatr drzewa bartne ogławiano czyli odcinano wierzchołek na wysokości 2/3 drzewa
+następnie przykrywano z wierzchu miejsce obcięcia wierzchołka kawałkami kory brzozowej lub deską ewentualnie przybijano jeszcze kołkiem lub dociążano kamieniem aby zabezpieczyć obcięty wierzchołek przed zamakaniem
+z czasem tak ogłowione drzewo określane jako podcin nabierało innego pokroju a mianowicie stawało się bardziej kopulaste
+wierzchołek drzewa odcinano zwykle już po osiedleniu się pszczół w barci
+jeśli sosna była naturalnie gruszowata czyli miała równomiernie rozwiniętą i niewybujałą koronę wtedy wierzchołek pozostawiano nieobcięty
+nie obcinano też wierzchołka gdy barć umieszczona była w dębie a to z racji jego bardziej równomiernej korony i większej odporności na wiatry niż w przypadku sosny
+i kłody drzewo bartne mogło zawierać naturalne dziuple zamieszkane przez pszczoły zwane świepietami ślepietniami lub sztuczne dziuple wykonane przez człowieka nazywane barciami
+na drzewie mogła też być umieszczona osobna kłoda bartna
+drzewo na którym stała kłoda bartna tzw stojak określane było jako stojło
+niekiedy drzewo bartne ścinano wycinano z niego fragment pnia z barcią i wykorzystywano jako niezależną kłodę bartną
+barci barcie były zwykle umieszczone na wysokości od kilku do kilkunastu metrów
+w celu ułatwienia drążenia barci wybierano drzewa z murszem którego widocznym przejawem były hubki czyrenia sosnowego
+próchno takiego zmurszałego drzewa powinno być koloru żółtego lub żółtopomarańczowego nie zaś brunatnego lub czarnego który świadczył o zaawansowaniu rozkładu drewna przez grzyby zaś barć w takim miejscu byłaby zbyt zawilgocona
+dzianie czyli drążenie barci wykonywano w sosnach zwykle jesienią zaś w dębach wiosną dzięki czemu nie następowało zalewanie ścian drążonej komory żywicą i sokami drzewa
+przewagą barci były nad sztucznymi ulami był też grube ścianki dziupli w żywym drzewie
+prawdopodobnie lepiej chroniły one przed oddziaływaniem pola elektrycznego np wytwarzanym podczas wyładowania atmosferycznego niż ścianki uli dzięki czemu pszczoły dawały więcej miodu i rzadziej zapadały na choroby
+barci najczęściej na jednym drzewie znajdowała się jedna barć czasami jednak pod sobą lub obok siebie umieszczano do pięciu barci
+drzewo z dwiema barciami nosiło nazwę dwojnica sosna odwójna z trzema sosna otrójna zaś z jeszcze większą liczbą barci nazwę królowa
+w przypadku kłód bartnych można było umieścić ich na jednym drzewie jeszcze więcej zdarzały się drzewa nawet z trzydziestoma kłodami
+na mazowszu drzewo z wyrobioną dziuplą dla pszczół nazywane było dzianek zaś sosna bez pszczół określana była jako jałowa lub próżna
+wokół drzewa mógł być rozłożony gruby chrust aby utrudnić szkodnikom dostęp do pnia
+wbite w ziemię i zaostrzone kołki sprawiały że nadziewał się na nie niedźwiedź spadający z drzewa po nieudanej próbie dostana się do barci strącony np przez samobitnię
+w przypadku ataku mrówek obszar wokół drzewa oraz jego pień obsypywano popiołem drzewnym
+do wspinania się na drzewa bartne służyło bartnikowi najczęściej leziwo rzadziej drabina ostrzew pień choinki z pozostawionymi przyciętymi gałęziami pełniącymi funkcję szczebli lub stopnie wyrąbywane w pniu i powróz służący do opasywania drzewa
+prawo bartne drzewa bartne tworzyły podstawową jednostkę organizacyjną bartnictwa nazywaną borem bartnym
+do boru bartnego nie zaliczał się cały obszar leśny a jedynie same drzewa bartne
+bartnik nie stawał się więc właścicielem całego lasu otrzymywał jedynie prawo do użytkowania wybranych drzew i wyrabiania w nich barci
+na bór składało zwykle około 60 drzew bartnych zdarzały się też jednak większe bory liczące nawet 120 barci ale również niewielkie złożone tylko z 6 barci
+drzewa bartne w danym borze oznaczane były znakami własnościowymi tzw znamionami bartnymi
+znamieniem były też oznaczane drzewa wybrane do utworzenia barci w przyszłości
+w drzewie takim nie zawsze jednak barć została faktycznie wydrążona lub jej drążenie mogło pozostać niezakończone
+według regulacji prawnych stosowanych np na mazowszu w dobrach książęcych i królewskich tzw regale drzewa bartne lub nadające się na założenie barci nie mogły być ścinane przez właściciela lasu
+właściciel lasu nie mógł też samodzielnie urządzać w drzewach barci
+powinien on też umożliwiać bartnikowi dostęp do drzew
+w przypadku naturalnego powalenia drzewa fragment pnia z barcią należał się bartnikowi
+w sandomierskiem istniał zakaz wycinki drzew w promieniu 16 stóp od drzewa bartnego
+drzewa bartne podlegały ochronie prawnej
+statut wielkopolski z xiv wieku przewidywał karę za obalenie drzewa bartnego i kradzież barci art xxviii xxxii
+karę za zniszczenie drzewa bartnego przewidywały także statuty litewskie
+w dziele porządek prawa bartnego z początku xvii w za drzewa z pszczołami” przewidywana była tzw kara kiszek polegająca na przybiciu do drzewa jelita wyprutego ze skazańca i chodzenia z nim dookoła drzewa aż wszystkie jelita znalazły się na zewnątrz
+stan współczesny największa liczba dawnych drzew bartnych zachowała się w polsce w puszczy białowieskiej 115 drzew bartnych lub ich szczątków według stanu na rok 2017
+nieliczne drzewa bartne zachowały się też w puszczy knyszyńskiej
+współcześnie podejmowane są próby odtwarzanie borów i drzew bartnych
+jednym z pierwszych tego typu działań było wykonanie w latach 1993–1994 barci w siedmiu drzewach w puszczy knyszyńskiej w pobliżu rezerwatu przyrody krzemianka
+galeria gallery plik bortnictva png drzewo bartne plik bort png barć wyrobiona w drzewie bartnym plik kalody jpg kłody bartne na drzewie bartnym plik bartnik2 jpg bartnik na leziwie podczas pracy na drzewie plik ahova borti jpg drzewa z różnymi rodzajami barci i kłód plik bortny znak jpg znamiona bartne umieszczane na drzewach plik mapa o
+magnus png drzewo bartne na mapie carta marina plik обчуьم áнеьم лоáظь jpg współczesne drzewo bartne z barcią gallery przypisy bibliografia
+
+dom inwalidy w poznaniu poznańska siedziba związku inwalidów wojennych rzeczypospolitej polskiej zlokalizowana przy ul piekary 6 i zburzona w 1945 ref name inwa marian białecki włodzimierz karwatka księga pamięci wielkopolskich inwalidów wojennych 1919-1999 zarząd okręgowy związku inwalidów wojennych rzeczypospolitej polskiej poznań 1998 s 49 67 isbn 83-906651-8-2 ref
+historia inicjatorem urządzenia w poznaniu domu inwalidy był prezes zarządu okręgowego ziw rp ludwik stachecki
+na siedzibę organizacji zakupiono w 1932 trzypiętrową eklektyczną kamienicę o skromnym wystroju i w dobrym stanie technicznym
+środki wyłożył zarząd główny i okręgowy z czego 250 zł zgromadził stachecki
+dom poświęcono i otwarto 23 września 1932
+poświęcenia dokonał ksiądz prałat taczek w obecności wojewody rogera adama raczyńskiego wiceprezydenta poznania mikołaja kiedacza i najwyższych władz ziw rp ref name inwa
+w obiekcie pomieszczenia znalazł zarząd okręgowy związku koło okręgowe a także towarzystwo pomocy inwalidom i weteranom 1863 r
+za budynkiem znajdowało się podwórze o powierzchni 1500 m² na którym planowano wzniesienie sali zebrań i warsztatów pracy dla weteranów ale do 1939 nie doszło do realizacji tego zamiaru ref name inwa
+dom inwalidy został zburzony w trakcie bitwy o poznań w lutym 1945
+inicjatywę jego odbudowy podjął w 1994 prezes zarządu okręgowego ziw rp tadeusz paczek
+na parceli został wzniesiony przez dewelopera ataner nowy budynek w którym związek otrzymał nieodpłatnie własnościowy lokal z salą konferencyjną garażami i pokojami gościnnymi ref name inwa
+przypisy
+
+jerzy sławomir wasilewski polski antropolog jerzy wasilewski polski architekt członek pingwinów jerzy wasilewski polski chemik profesor
+
+gemma forsyth ur 6 lutego 1989 australijska aktorka i tancerka
+znana jest głównie z roli evie mclaren w serialu mako mermaids syreny z mako
+karierę aktorską rozpoczęła w 2003 roku występując gościnnie w serialu the sleepover club
+filmografia linki zewnętrzne
+
+mcclure wieś w stanach zjednoczonych w stanie illinois w hrabstwie alexander
+przypisy
+
+pekka matti jaakko puska ur 18 grudnia 1945 w vaasa ref name bio ref fiński naukowiec specjalista w zakresie zdrowia publicznego oraz polityk profesor w latach 2009–2013 dyrektor generalny narodowego instytut zdrowia i dobrobytu poseł do eduskunty
+życiorys na uniwersytecie w turku ukończył nauki polityczne 1968 i medycynę 1971
+doktoryzował się z medycyny i chirurgii na uniwersytecie w kuopio
+specjalizował się w zakresie epidemiologii i zdrowia publicznego ref name cv ref
+jako nauczyciel akademicki związany głównie z uniwersytetem w kuopio oraz uniwersytetem helsińskim ref name bio ref name cv
+wieloletni pracownik kansanterveyslaitos ktl narodowego instytutu zdrowia publicznego
+był w jego ramach dyrektorem wydziału epidemiologii i promocji zdrowia oraz dyrektorem generalnym ktl ref name cv
+odpowiadał m in za projekt przeciwdziałania chorobom układu krążenia w karelii północnej i następnie w całej finlandii ref name b1 ref
+w latach 2001–2003 pełnił funkcję dyrektora jednego z departamentów w strukturze światowej organizacji zdrowia ref name cv
+po przekształceniach organizacyjnych w 2009 został dyrektorem generalnym fińskiego narodowego instytut zdrowia i dobrobytu którym kierował do 2013 ref name bio
+był też przewodniczącym rady zarządzającej międzynarodowej agencji badań nad rakiem 2010–2013 i organizacji pozarządowej world heart federation 2011–2012 ref name bio
+zaangażowany również w działalność polityczną w ramach partii centrum
+w latach 1987–1991 sprawował mandat deputowanego
+od 1993 do 1997 był radnym miejskim w joensuu
+w 2017 ponownie zasiadł w fińskim parlamencie ref name bio
+przypisy
+
+hollowayville
+
+de pue
+
+piłka siatkowa na letnich igrzyskach olimpijskich 1964
+
+zero waste
+
+spółka notowana na giełdzie papierów wartościowych w warszawie ref ref polski operator telefonii komórkowej w modelu mvno
+firma ma siedzibę w jaśle województwo podkarpackie
+sieć w 100 z kapitałem polskim
+oferuje usługi w modelu abonamentowym w ofertach na czas określony
+firma oferuje swoje usługi głównie w internecie posiada jednak również stacjonarne punkty sprzedaży
+wpisana jest do rejestru przedsiębiorców telekomunikacyjnych pod numerem 37
+oferta sieć oferuje swoje usługi w oparciu o infrastrukturę play
+oferuje swoje usługi w modelu abonamentowym
+w portfolio swoich taryf ma usługi głosowe oraz internetowe
+w usługach głosowych oferuje 7 taryf bez limitu
+większość ofert głosowych sprzedawana jest na czas określony
+w usługach internetowych oferuje 3 taryfy
+również te oferty dostępne są w umowach na czas nie określony
+telgam mobile umożliwia również przenoszenie numerów telefonicznych z innych sieci
+oferta usług jest przejrzysta i prosta bez ukrytych opłat
+historia firma powstała w 1995 roku początkowo obsługując klientów indywidualnych
+w 2017 firma rozszerzając profil swojej działalności rozpoczęła świadczenie usług mobilnych na terenie całego kraju ref ref
+marketing telgam mobile to jedyny operator dla lokalnych społeczności
+logo telgam mobile przedstawia literę t oraz motto operator bliski lokalnym społeczności
+
+hans j’rgen fritz
+
+forough abbasi ur 15 września 1993 irańska narciarka alpejska dwukrotna olimpijka
+osiągnięcia igrzyska olimpijskie bibliografia
+
+bjحrn g hansen
+
+łyżwiarstwo figurowe na zimowym olimpijskim festiwalu młodzieży europy 2007 jedna z dyscyplin rozgrywanych podczas zimowego olimpijskiego festiwalu młodzieży europy od 19 do 22 lutego 2007 w hali palacio del hielo de jaca w jaca
+zawody odbyły się w dwóch konkurencjach solistów i solistek
+w odróżnieniu od innych zawodów rangi mistrzowskiej w łyżwiarstwie figurowym każdy kraj zrzeszony w europejskim komitecie olimpijskim mógł wystawić w każdej konkurencji po jednym reprezentancie
+wyniki soliści solistki przypisy bibliografia
+
+bogdan narcyz nowak ur 3 sierpnia 1965 w krakowie polski samorządowiec lotnik i przedsiębiorca emerytowany wojskowy w latach 2013–2016 członek zarządu województwa lubuskiego od 2013 do 2014 w randze wicemarszałka
+życiorys pochodzi z krakowa
+absolwent liceum lotniczego w zielonej górze
+w wyższej oficerskiej szkole lotniczej w dęblinie uzyskał stopień podporucznika inżyniera pilota a na wydziale lotnictwa i obrony powietrznej akademii obrony narodowej kapitana dyplomowanego
+kształcił się podyplomowo z audytu energetycznego budynków na wydziale inżynierii lądowej środowiska uniwersytetu zielonogórskiego
+w latach 1984–2005 służył w siłach powietrznych na stanowiskach pilota starszego pilota dowódcy klucza zastępcy dowódcy eskadry dowódcy eskadry zastępcy dowódcy pułku starszego specjalisty w zespole zabezpieczenia szkolenia lotniczego grupy ds wdrożenia f 16
+jednocześnie w latach 1983–2003 czynnie uprawiał sporty lotnicze w aeroklubie ziemi lubuskiej będąc członkiem kadry polski juniorów w akrobacji samolotowej i współzałożycielem grupy akrobacyjnej
+w 2005 przeszedł na emeryturę wojskową następnie zajął się prowadzeniem działalności gospodarczej w zakresie audytu energetycznego budynków
+od 2005 do 2010 był także dyrektorem ds marketingu i współpracy zagranicznej w firmie z branży medycznej lfc
+do 2013 pracował jako wicedyrektor departamentu infrastruktury i komunikacji urzędu marszałkowskiego województwa lubuskiego
+został członkiem platformy obywatelskiej
+10 czerwca 2013 został wybrany wicemarszałkiem województwa lubuskiego odpowiedzialnym m in za infrastrukturę drogową kolejową i lotniczą energetykę oraz światłowody
+w 2014 bez powodzenia kandydował do sejmiku lubuskiego
+1 grudnia 2014 w nowym zarządzie województwa przeszedł na fotel członka
+16 maja 2016 zrezygnował z tego stanowiska w związku z powiększeniem koalicji rządzącej o sojusz lewicy demokratycznej formalnie z przyczyn osobistych
+przeszedł wówczas na stanowisko sekretarza urzędu marszałkowskiego
+życie prywatne mieszka w czerwieńsku
+żonaty ma syna i córkę
+przypisy
+
+antonio pardo
+
+tor e hielm
+
+agnieszka adamczewska młoda polska wokalistka pop rockowa urodzona w siemianowicach śląskich kompozytorka oraz gitarzystka założycielka i liderka grupy the variants
+ma za sobą zwycięstwo w programie telewizyjnym bitwa na głosy w 2011 roku występując w drużynie piotra kupichy lidera grupy feel a także bardzo udany występ na krajowym festiwalu piosenki polskiej w opolu
+niedawno ukazał się singiel agnieszki na wszystko przyjdzie czas ref ref który zdobył ogromną popularność plasując się w top 20 najczęściej granych utworów na antenie polskiego radia w 2018 roku
+był to jeden z dwóch wydanych singli agnieszki
+drugi to w moje oczy patrz z tego samego roku
+br
+
+audun o olsen
+
+allie bertram ur 23 czerwca 1989 kanadyjska aktorka filmowa i telewizyjna
+znana jest głównie z roli mimmi w australijskim serialu mako mermaids syreny z mako
+karierę aktorską rozpoczęła w 2009 roku
+wybrana filmografia linki zewnętrzne
+
+ladd wieś w stanach zjednoczonych w stanie illinois w hrabstwie bureau
+przypisy
+
+malden wieś w stanach zjednoczonych w stanie illinois w hrabstwie bureau
+przypisy
+
+manlius wieś w stanach zjednoczonych w stanie illinois w hrabstwie bureau
+przypisy
+
+niccolة gaddi ur w 1499 we florencji zm 16 stycznia 1552 tamże włoski kardynał
+życiorys urodził się w 1499 roku we florencji jako syn taddea gaddiego i antonii altoviti
+w młodości został klerykiem kamery apostolskiej
+16 października 1521 roku został wybrany biskupem fermo jednak nigdy nie przyjął sakry
+3 maja 1527 roku został kreowany kardynałem diakonem i otrzymał diakonię san teodoro
+w czasie złupienia rzymu został wzięty do niewoli wraz z klemensem vii
+w latach 1528–1535 pełnił funkcję administratora apostolskiego cosenzy a w okresie 1533–1545 sarlat la canéda
+około 1544 roku zrezygnował z zarządzania diecezją fermo
+20 listopada 1551 roku został podniesiony do rangi kardynała prezbitera a dotychczasowa diakonia santa maria in via lata została podniesiona do rangi kościoła tytularnego na zasadzie pro hac vice
+zmarł 16 stycznia 1552 roku we florencji
+przypisy
+
+wietrznik wzgórze
+
+isabel durant ur 20 grudnia 1993 australijska aktorka i tancerka
+znana jest głównie z roli ondiny w serialu mako mermaids syreny z mako
+karierę aktorską rozpoczęła w 2007 roku
+wybrana filmografia linki zewnętrzne
+
+marino grimani włoski polityk doża wenecji w latach 1595–1605 marino grimani włoski kardynał patriarcha akwilei w latach 1517–1529 i 1535–1545
+
+bureau junction
+
+dominik niemirski ur 25 kwietnia 1992 w opocznie polski samorządowiec i społecznik
+od 3 grudnia 2010 roku prezes zarządu drzewickiego centrum wolontariatu ofiarna dłoń
+w latach 2014-2018 radny rady gminy i miasta w drzewicy członek komisji oświaty zdrowia kultury kultury fizycznej i opieki społecznej oraz komisji inicjatyw gospodarczych współpracy z zagranicą i komunalizacji
+od 20 listopada 2018 roku zastępca burmistrza gminy i miasta w drzewicy
+życiorys w 2012 roku ukończył technikum informatyczne w zespole szkół ponadgimnazjalnych w drzewicy następnie studia licencjackie na kierunku zarządzanie publiczne prowadzonym przez wydział zarządzania uniwersytetu łódzkiego
+pracę dyplomową pt problemy partycypacji społecznej w zarządzaniu rozwojem jednostek samorządu terytorialnego na przykładzie gminy i miasta drzewica obronił w lipcu 2015 roku
+następnie rozpoczął studia magisterskie na kierunku samorząd terytorialny i polityka regionalna prowadzone przez centrum studiów samorządu terytorialnego i rozwoju lokalnego uniwersytetu łódzkiego
+we wrześniu 2017 roku obronił pracę dyplomową pt polityka senioralna na przykładzie gminy drzewica
+już jako uczeń szkoły podstawowej gimnazjum a następnie szkoły średniej był zaangażowany w działalność samorządu szkolnego
+w czasie studiów licencjackich był aktywnym członkiem rady menedżerów publicznych oraz studenckiego koła naukowego public management działającego przy katedrze zarządzania miastem i regionem na wydziale zarządzania uniwersytetu łódzkiego
+od młodych lat zaangażowany w działalność wielu organizacji pozarządowych w tym m in lokalnej grupy działania nad drzewiczką
+był inicjatorem powołania stowarzyszenia drzewickie centrum wolontariatu ofiarna dłoń którego głównym celem jest niesienie pomocy osobom znajdującym się w trudnej sytuacji życiowej
+od 3 grudnia 2010 roku pełni w stowarzyszeniu funkcję prezesa zarządu
+w latach 2012-2014 pracował jako informatyk świadcząc usługi na rzecz m in akademickiego biura karier zawodowych uniwersytetu łódzkiego centrum edukacji i aktywizacji zawodowej osób niepełnosprawnych w łodzi oraz fundacji etnoinspiracje w łodzi
+od 2013 roku aktywnie uczestniczy w pracach komisji konkursowych oceniających oferty na realizację zadań publicznych składanych przez organizacje pozarządowe do zarządu województwa łódzkiego
+w 2014 roku odbył praktyki studenckie w oddziale współpracy krajowej i zagranicznej biura wojewody łódzkiego
+w 2014 roku wystartował ze swojego komitetu wyborczego wyborców w wyborach samorządowych jako kandydat do rady gminy i miasta w drzewicy
+otrzymał 212 głosów uzyskując tym samym mandat radnego rady gminy i miasta w drzewicy
+był aktywnym członkiem komisji oświaty zdrowia kultury kultury fizycznej i opieki społecznej oraz komisji inicjatyw gospodarczych współpracy z zagranicą i komunalizacji
+14 listopada 2018 roku zakończył pracę w radzie gminy i miasta w drzewicy nie ubiegając się ponownie o mandat radnego od 2015 roku do 2018 roku był zatrudniony w biurze projektowym azako andrzej zalega a następnie azako sp z o o w latach 2016-2017 pełnił funkcję kierownika działu prawnego a od 2017 roku funkcję dyrektora działu administracji i obsługi
+w sierpniu 2018 roku został powołany na członka zarządu spółki azako z siedzibą w opocznie
+funkcję pełnił do 30 października 2018 roku
+20 listopada 2018 roku został powołany na stanowisko zastępcy burmistrza gminy i miasta w drzewicy
+osiągnięcia i wyróżnienia laureat plebiscytu oceniamy władze w kategorii radny miasta i gminy drzewica zorganizowanego przez dziennik łódzki i tygodnik 7 dni
+laureat plebiscytu roku 2016 powiatu opoczyńskiego” zorganizowanego przez dziennik łódzki i tygodnik 7 dni
+brązowy krzyż zasługi za działalność na rzecz społeczności lokalnej nadany przez prezydenta rp
+finalista w plebiscycie człowiek roku 2015 powiatu opoczyńskiego zorganizowanym przez dziennik łódzki i tygodnik 7 dni
+nagroda specjalna im marii konopnickiej łódzkiego kuratora oświaty w łodzi za działania w zakresie udzielania pomocy potrzebującym zaangażowanie społeczne zachęcanie rówieśników do włączania się w prace na rzecz innych ludzi poszanowanie godności drugiego człowieka nienaganną postawę w życiu codziennym oraz aktywne uczestnictwo w życiu szkoły
+nagroda burmistrza gminy i miasta w drzewicy za wyjątkową aktywność społeczną na rzecz środowiska lokalnego
+nominacja do iv edycji konkursu społecznik roku 2011 redakcji tygodnika newsweek polska za ogromne zaangażowanie w pomoc innym oraz prowadzone działania
+_ _ zespisem _ _ _ _ indeksuj _ _
+
+coatsburg
+
+uzasadnienie litwa państwo europejskie choć niewielkie to bogate w kulturę historię i trochę czerwonych linków
+każdy znajdzie coś dla siebie w doborze tematu
+zainteresowanie może być spore obstawiam że przynajmniej 70 artykułów napiszemy dyskusja 19q41 1 lut 2019 cet zakres tematyczny republika litewska proponowana data akcji lipiec 6 lipca litwini obchodzą dzień państwowy dzień koronacji króla litwy mendoga
+dyskusja
+
+żarnowa ok 355 m wzniesienie na wyżynie olkuskiej ref gmina zabierzów wyd
+iii 2013 wyd
+compass ref
+jego północne zachodnie i południowe zbocza są porośnięte lasem wschodnie przechodzą w pokrytą polami uprawnymi na szczycie i nieco poniżej szczytu na zachodnich opadających do będkówki zboczach znajdują się zbudowane z wapieni duże skały szeroki mur oraz dziadek i babka
+są także niewielkie jaskinie tzw schroniska schronisko w łączkach kobylańskich pierwsze schronisko w łączkach kobylańskich drugie schronisko w łączkach kobylańskich trzecie ref name geoportal
+przypisy
+
+uniwersytet stanu arizona
+
+żarnowa wieś w województwie podkarpackim w powiecie strzyżowskim w gminie strzyżów żarnowa wzgórze na wyżynie olkuskiej w gminie zabierzów żarnowa wzgórze w górach świętokrzyskich
+
+67 angielski zespół muzyczny założony w dzielnicy południowego londynu brixton w 2014 roku wykonujący muzykę drill ref ref rozgłos dała im piosenka lets lurk z 2016 r
+grupa została oznaczona przez brytyjską policję jako gang
+historia 67 rozpoczęło działalność muzyczną w 2014 roku w brixton w londynie przez członków ulicznego gangu ref name 0 ref w 2016 roku wydali singiel lets lurk z gościnnym udziałem giggsa który na liście uk singles chart osiągnął 66 miejsce
+rok później podkład muzyczny z tego kawałka został użyty przez komika michaela dapaaha w kawałku man s not hot ref ref co spotkało się z krytyką ze strony członka zespołu dimzy ego ref ref w grudniu 2018 r czlonek 67 ld był supportem skepty podczas koncertu w warszawskiej progresji ref ref kwestie prawne w 2014 roku scribz otrzymał dwuletni prawny zakaz na tworzenie muzyki i występowanie na scenie ref ref ref ref w 2016 roku trafił do więzienia za posiadanie przy sobie noża ref ref ref ref formacja została zakwalifikowana przez policję jako gang ref ref co doprowadziło do anulowania ich pierwszej trasy koncertowej po wielkiej brytanii ref ref w lipcu 2018 r
+dimzy wydał list otwarty w którym oskarżył media i policję o robienie z twórców drillu w tym 67 kozłów ofiarnych w sprawie wzmożonej ilości brutalnych przestępstw w londynie ref ref członkowie obecni członkowie ld dimzy steve mubama ur 21 maja 1993 monkey lloyd acheampong ur 23 maja 1994 li:uez meli:ue garraway ur 29 września 1996 a s a
+p maliki martin ur 24 kwietnia 1995 byli członkowie scribz cassiel wuta offei ur 9 kwietnia 1992 sj joshua amon ref name 0 dyskografia mixtape y 67 the mixtape 2015 in skengs we trust 2015 lets lurk 2016 glorious twelfth 2017 the 6 2018 przypisy
+
+moim zdaniem zbyt lokalne osiągnięcia jak na encyklopedię
+dyskusja 19q54 1 lut 2019 cet się dyskusja 19q58 1 lut 2019 cet przyjmując takie kryterium nie tylko wszyscy radni powinni być uznani jako ency ale również sołtysowie burmistrzowie ich zastępcy etc dyskusja 20q13 1 lut 2019 cet tego samego zdania
+do ency stanooooowczo za mało
+span style color green font size 75 sup dyskusja sup span 20q34 1 lut 2019 cet takie biografie usuwa się przez ek a nie sdu
+sup span style color blue 21 span sup 21q43 1 lut 2019 cet
+
+multikino
+
+marino grimani ur ok 1488 1489 w wenecji zm 28 września 1546 w orvieto włoski kardynał
+życiorys urodził się między 1488 a 1489 rokiem w wenecji jako syn gerolama grimaniego i eleny priuli
+studiował pod okiem prywatnych nauczycieli a następnie został klerykiem w rodzinnym mieście
+16 sierpnia 1508 roku został wybrany biskupem cenedy jednak sprawował władzę w randze administratora apostolskiego do czasu osiągnięcia wieku kanonicznego
+w 1517 roku został mianowany patriarchą akwilei i pełnił tę funkcję do 1529 roku
+3 maja 1527 roku został kreowany kardynałem prezbiterem i otrzymał kościół tytularny san vitale
+pełnił rolę administratora apostolskiego cenedy 1531–1540 1545–1546 concordia sagittaria 1533–1537 città di castello 1534–1539 i saint pons de thomiبres 1534
+ponadto był legatem w umbrii perugii parmie i piacenzy a ponadto negocjował pokój pomiędzy franciszkiem i a karolem v
+w 1535 roku ponownie został patriarchą akwilei a dziesięć lat później został tytularnym patriarchą konstantynopola
+13 marca 1541 roku został podniesiony do rangi kardynała biskupa i otrzymał diecezję suburbikarną frascati
+zmarł 28 września 1546 roku w orvieto
+przypisy
+
+miasteczko akademickie
+
+wiesław prządka ur 6 marca 1964 roku w wolsztynie
+jeden z najwybitniejszych polskich akordeonistów i bandoneonistów kompozytor aranżer
+sam zwykł mawiać że urodził się po to aby grać na akordeonie
+zakochany w artysta któremu w duszy rozbrzmiewa namiętne tango
+ta muzyka doprowadziła go do kolejnego odkrycia bandoneonu instrumentu charakterystycznego dla tanga
+jak dotąd jest jedynym polskim bandoneonistą koncertującym na bandoneonie diatonicznym ref ref
+grając tango a szczególnie muzykę dziś bardzo popularnego astora piazzolli współpracował z waldemarem malickim trio revirado tango bridge new tango bridge międzynarodowym zespołem distango oraz teatrem im juliusza słowackiego w krakowie gdzie występował w przedstawieniu piazzolla”
+szerokie horyzonty muzyczne wiesława prządki owocują współpracą z największymi postaciami sceny muzycznej hanną banaszak grażyną brodzińską olgą bończyk justyną szafran waldemarem malickim jackiem wójcickim zbigniewem górnym tomaszem szymusiem tomaszem tomaszewskim richardem galliano krzysztofem jakowiczem filipem wojciechowskim krzysztof meisingerem markiem piątkiem zbigniewem wromblem andrzejem mazurkiem jose juniorem mossalinim izydorem leitingerem i in wirtuoz któremu zawdzięczamy triumfalny powrót akordeonu jako instrumentu solowego na sceny filharmonii jak również rozpropagowanie w polsce stylu musette i new musette ref ref
+to on udowodnił że akordeon może z powodzeniem wkomponować się w najróżniejsze style muzyczne jak swing jazz tango latino itd
+jako wszechstronny artysta koncertuje na estradach całej europy a także stanach zjednoczonych
+dokonał szeregu nagrań dla rozgłośni radiowych i telewizyjnych w polsce szwecji niemczech holandii francji danii belgii włoszech
+ma na swoim koncie wiele płyt nagranych z własnym zespołem new musette :uartet z zespołem hot swing new tango bridge oraz wybitnymi wokalistami i orkiestrami
+dziś uważany jest za 1 jednego z najwybitniejszych akordeonistów i bandoneonistów w polsce
+życiorys naukę rozpoczął w ognisku muzycznym w wolsztynie
+następnie naukę kontynuował w i liceum muzycznym im mieczysława karłowicza w poznaniu
+w latach 1984-1988 studiował w akademii muzycznej im i j paderewskiego w poznaniu na wydziale instrumentalnym w klasie akordeonu pod kierunkiem prof
+henryka krzemińskiego
+wieloletni członek z którym koncertował w polsce i europie m in francja belgia holandia szwecjaض
+w 1990 został laureatem i nagrody na międzynarodowym konkursie zespołów kameralnych w paryżu z poznańskim kwintetem akordeonowym
+w 1993 wiesław prządka jako prekursor stylu musette w polsce założył własny zespół muzyczny od 2003 roku zmienił nazwę na który bardzo szybko zdobył uznanie szerokiej rzeszy słuchaczy oraz mediów prasy radia i telewizji już w 1995 roku nakładem wydawnictwa radia merkury poznań wydaje pierwszą płytę zespołu
+od 1997 rozpoczyna się ścisła współpraca ze zbigniewem górnym i jego orkiestrą gdzie został zaproszony jako solista do koncertu jubileuszowego z okazji 20 lecia orkiestry zbigniewa górnego dla tvp program 2
+od tego momentu artyści kontynuują wspólne koncerty w polsce i za granicą
+w 1998 roku koncert jubileuszowy z okazji 5 cio lecia musette :uartet z udziałem wspaniałych gości hanny banaszak katarzyny groniec jacka wójcickiego krzysztofa tyńca haliny zimmermann jacka kotlarskiego oraz zespołu affabre concinui dla tvp program 2 lata 1999 to cykl koncertów między innymi koncert jubileuszowy znanego sekstetu wokalnego affabre concinui występ solo z towarzyszeniem orkiestry symfonicznej od 1999 roku wiesław prządka rozpoczyna działalność filharmoniczną
+od tego momentu artysta regularnie koncertuje w salach filharmonicznych w całej polsce
+rok 2000 to nagranie programu telewizyjnegoعel tango” z muzyką astora piazzolli na zaproszonie waldemara malickiego jak i udział na festiwalu gwiazd w międzyzdrojach z waldemarem malickim i vadimem brodskim
+w latach 2000 do 2010 współpracuje z zespołami trio revirado tango bridge i new tango bridge krakowskiego kontrabasisty grzegorz frankowskiego
+jako solista brał udział w benefisach jacka wójcickiego 80 minut dookoła świata” zbigniewa wodeckiego hanny banaszak krystyny feldman realizowanych dla tvp program 2 2004 koncerty ze światowej sławy akordeonistą richardem galliano wraz z tomaszem tomaszewskim skrzypce filipem wojciechowskim fortepian i orkiestrą kameralną sinfonia baltica pod dyrekcją bohdana jarmołowicza w salach filharmonii bałtyckiej w gdańsku filharmonii poznańskiej oraz filharmonii krakowskiej
+koncert w poznaniu został zarejestrowany i ukazała się płyta tango for ever z udziałem richarda galliano
+2004 wydanie drugiej płyty zespołu new musette :uartet pt mucho” od 2004 roku współpracuje z międzynarodową grupą distango koncertując w całej europie z muzyką astora piazzolli
+podczas koncertów towarzyszy mu para taneczna ba tango czyli blaź bertoncelj i andreja podlogar ze słowenii którzy w 1998r zdobyli tytuł mistrzów świata w tangu argentyńskim
+w 2006 roku powstaje kolejna płyta new musette :uartet pt z autorską muzyką w latach 2007 2011 występował w krakowskim teatrze im juliusza słowackiego w spektaklu tango piazzolla w reżyserii józefa opalskiego które w 2008 roku zostało okrzyknięte najlepszym spektaklem teatralno muzycznym
+w latach 2007 2010 odbył szereg koncertów z waldemerem malickim w kwintecie na wzór :uinteto tango nuevo astora piazzolli kraków katowice warszawa gdańsk poznań sopot i wiele innych od 2013 współpracuje z teatrem naszym jadwigi i tadeusza kutów występując w przedstawieniach w nutach” oraz edith piaf i nie tylkoض”
+kieleckim teatrem tańca od 2015 u wybitnego muzyka pojawia się coraz częściej jazz
+wiesław prządka powołuje nową formację z udziałem gwiazd polskiego jazzu
+muzyka wykonywana przez zespół łączy w sobie dwa światy tanga i jazzu od 2017 rozpoczyna współpracę z wykonując wspólnie koncert pod dyrekcją anny duczmal mróz z muzyką astora piazzolli w auli uam w poznaniu 12 lutego 2017
+już 4 czerwca 2017 koncert ten został powtórzony w studio koncertowym im witolda lutosławskiego w warszawie i zarejestrowany w systemie audio lipiec 2018 jako dyrektor artystyczny i jednocześnie solista poprowadził wielki plenerowy
+udział w festiwalach festiwal gwiazd międzyzdroje festiwal wirtuozerii i żartu muzycznego fun and classic nowy sącz ii festiwal humoru muzycznego deer maestro jelenia góra poznań jazz fair malta festival 2009 malta festival 2010 goteborgs jazz festiwal 2010 letni festiwal jazzu tradycyjnego tarnów 7
+festiwal muzyki organowej i kameralnej w polkowicach 8
+festiwal muzyki organowej i kameralnej w polkowicach 0 11
+festiwal muzyki organowej i kameralnej w polkowicach iv letni festiwal muzyczny musica sacra musica profana w długiej goślinie festiwal muzyki akordeonowej w koszalinie festiwal akordeonowy w kotlinie mławski festiwal akordeonowy ii festiwal gitarowy w elblągu vi lubuskie spotkania gitarowe vi międzynarodowy festiwal polska akademia gitary 50
+międzynarodowy festiwal im jana kiepury w krynicy zdrój ref ref letni festiwal muzyczne tarasy tarnów mościce xv międzynarodowym festiwalu jazzowym bez koncerty przemyśl lwów 24
+międzynarodowy festiwal muzyki akordeonowej w przemyślu festival dell arte w dolinie pałaców i ogrodów iii międzynarodowy festiwal muzyczny bellevoci w brzegu dolnym
+dyrektor artystyczny koncert plenerowy wiesław prządka i przyjaciele wolsztyn 2010 z udziałem gwiazd grażyna brodzińska justyna szafran zbigniew wodecki jacek kotlarski new musette :uartet hot swing z towarzyszeniem orkiestry symfonicznej pod batutą bohdana jarmołowicza
+spektakl de buenos aires” tango operity z muzyką astora piazzolli po raz pierwszy wystawionej w polsce podczas festiwalu malta w poznaniu ref ref
+słotwiny arena w krynicy zdrój z udziałem gwiazd olga bończyk stanisław sojka piotr gąsowski patrycja kotlarska z towarzyszeniem pod dyrekcją
+wyróżnienia i nagroda na ogólnoposkim konkursie solistów i zespołów akordeonowych w międzyrzeczu i nagroda na międzynarodowym konkursie zespołów kameralnych w paryżu złoty laur sceny na piętrze medal homo artifex nagroda burmistrza za promowanie i rozwój dla miasta i gminy wolsztyn to rodzinne miasto wiesława prządki dyskografia tango suita troileana płyta live z orkiestrą kameralną polskiego radia amadeus pod dyrekcją anny duczmal mróz solowa płyta of accordion” z towarzyszeniem orkiestry polska filharmonia sinfonia baltica pod
+dyr bohdana jarmołowicza 0 tango forever z udziałem richarda galliano 0 paryż” besame mucho inspiracje new musette tango alla polaca regreso al sur gershwin piazzolla płyta zespołu hot swing global bridge płyta z muzyką grzegorz frankowskiego to efekt wieloletniej współpracy z jego zespołami trio revirado
+tango bridge i new tango bridge współpraca z orkiestrami i filharmoniami orkiestra kameralna polskiego radia amadeus agnieszki duczmal ref ref orkiestra kameralna filharmonii narodowej ref ref baltic neopolis orchestra ze szczecina ref ref orkiestra kameralna art silesian cellective orkiestra kameralna hanseatica gdańsk ref ref orkiestra kameralna leopoldinum we wrocławiu elbląska orkiestra kameralna radomska orkiestra kameralna polska filharmonia sinfonia baltica w słupsku orkiestra symfoniczna filharmonii podkarpackiej w rzeszowie filharmonia bałtycka w gdańsku filharmonia poznańska filharmonia krakowska filharmonia sudecka filharmonia opolska filharmona wrocławska filharmonia kaliska filharmonia szczecińska filharmonia gorzowska filharmonia zielonogórska filharmonia zabrzańska filharmonia świętokrzyska w kielcach filharmonia białostocka filharmonia koszalińska filharmonia olsztyńskiej płocka orkiestra symfoniczna orkiestra symfoniczna im karola namysłowskiego w zamościu orkiestra zbigniewa górnego orkiestra tomka szymusia obecnie koncertuje często z udziałem olgi bończyk krzysztofa kiljańskiego grażyny brodzińskiej katarzyny jamróz justyny szafran patrycji i jacka kotlarskich jacka wójcickiego hot swing new musette :uartet tango jazz project i wieloma innymi wybitnymi muzykami
+br
+
+alex cubis ur 24 października 1990 w sydney australijski aktor filmowy i telewizyjny
+znany jest głównie z roli erika w serialu syreny z mako
+karierę filmową rozpoczął w 2010 roku występując w filmie krótkometrażowym
+wybrana filmografia 2013 gauntlet ryan sanders 2015 syreny z mako erik 2016 rake kyle mannix 2017 unverified andrew 2018 drodzy biali
+nicolas linki zewnętrzne
+
+łyżwiarstwo figurowe na zimowym olimpijskim festiwalu młodzieży europy 2005 jedna z dyscyplin rozgrywanych podczas zimowego olimpijskiego festiwalu młodzieży europy od 22 do 29 stycznia 2005 w monthey
+zawody odbyły się w dwóch konkurencjach solistów i solistek
+w odróżnieniu od innych zawodów rangi mistrzowskiej w łyżwiarstwie figurowym każdy kraj zrzeszony w europejskim komitecie olimpijskim mógł wystawić w każdej konkurencji po jednym reprezentancie
+wyniki soliści solistki przypisy
+
+linda ngo ur 13 marca 1994 w sydney australijska aktorka
+znana jest głównie z roli weilan w australijskim serialu mako mermaids syreny z mako
+karierę aktorską rozpoczęła w 2012 roku poprzez występ w krótkometrażowym filmie gangs
+wybrana filmografia linki zewnętrzne
+
+euzebi ostaszewski 1756 1794 kapitan regimentu gwardii pieszej koronnej członek sprzysiężenia 1793 1794 roku członek rady cywilnej i wojskowej dowódca kompanii regimentu gwardii pieszej koronnej w insurekcji kościuszkowskiej
+życiorys urodził się w 1756 roku jako syn mikołaja ostaszewskiego podwojewodzego ziemi wyszogrodzkiej i franciszki z miszewskich właścicieli majątku milewo ruszczyny i królewszczyzny wilczkowo koło wyszogrodu ref ref w 1779 roku był sierżantem w regimencie gwardii pieszej koronnej
+dnia 5 stycznia 1788 roku postąpił na chorążego następnie 20 maja 1791 roku na podporucznika ref ref i 1 sierpnia 1792 roku na porucznika ref ref podczas insurekcji kościuszkowskiej wszedł do rady cywilnej i wojskowej
+podpisał się pod akcesem do powstania narodowego tadeusza kościuszki dnia 19 kwietnia 1794 roku ref akta powstania kościuszki opr
+szymon askenazy i włodzimierz dzwonkowski kraków 1918 cz
+3 s 134 205 ref miesiąc później dnia 21 maja 1794 roku awansował w regimencie gwardii pieszej koronnej na kapitana z kompanią ref mariusz machynia czesław srzednicki oficerowie wojska koronnego 1777-1794
+spisy część 3 piechota księgarnia akademicka
+wydawnictwo naukowe kraków 1998 s 43 ref prawdopodobnie poległ w walkach gdyż nie występuje w źródłach z okresu po insurekcji kościuszkowskiej
+miał czworo młodszego rodzeństwa 1 siostrę annę kunegundę urodzoną 27 lipca 1757 roku w wyszogrodzie ref ref zaślubioną w 1775 roku kazimierzowi zawadzkiemu 2 brata romualda floriana jana nepomucena urodzonego 9 lutego 1759 roku w wyszogrodzie pisarza sądowego ziemiańskiego ziemi wyszogrodzkiej 1792 roku ref ref 3 kolejnego brata ignacego urodzonego około 1760 roku i 4 najmłodszego brata józefa urodzonego w 1765 roku
+w dokumentach pisał się zamiennie jako euzebiusz lub euzebi ostaszewski
+jest wspomniany między innymi w pamiętnikach jana kilińskiego ref jan kiliński pamiętniki t
+1
+stanisław herbst warszawa 1958 s 86 ref i w powieści historycznej władysława reymonta rok 1794 insurekcja” ref władysław stanisław reymont rok 1794 insurekcja warszawa 1916 s 315 ref zobacz też insurekcja kościuszkowska ostaszewscy herbu ostoja przypisy
+
+duolife magazine ogólnopolski periodyk o profilu lifestylowo biznesowym od stycznia 2018 roku kolportowany w sieciach empik ref ref
+funkcję redaktor naczelnej od tego momentu pełni angelika łuszcz
+duolife magazine powstał w styczniu 2017 roku na podstawie uzgodnień zarządu i rady nadzorczej duolife jako organ prasowy firmy duolife s a wspierający działalność członków klubu duolife
+funkcję pierwszej redaktor naczelnej pełniła w tym czasie monika rędzińska
+rok później wspólną decyzją redakcji duolife magazine oraz zarządu duolife periodyk rozpoczął działalność jako niezależny magazyn
+adres redakcji nadal pozostaje spójny z siedzibą duolife s a ref ref zawartość duolife magazine jest podzielony na pięć obszarów tematycznych lifestyle biznes zdrowie technologie podróże sekcję lifestyle podsumowuje stała rubryka warto przeczytać promująca publikacje oscylujące wokół tematów zdrowia rozwoju osobistego i finansów
+profil magazynu na łamach duolife magazine podkreślane są następujące wartości zdrowie redakcja ściśle współpracuje ze środowiskiem medycznym uniwersyteckim i sportowym równowaga w życiu prywatnym i zawodowym studium przypadku głównie w oparciu o rozmowy z doświadczonymi personami ze świata biznesu ze szczególnym nastawieniem na biznes softmarketingowy nauka z naciskiem na rozwój osobisty najnowsze odkrycia w obszarze medycyny a także wykorzystanie nowych technologii w strategiach sprzedażowych
+zespół redakcyjny angelika łuszcz redaktor naczelna anna rzadkowska redaktor jakub starzyk redaktor rafał topolski projekt i skład graficzny joanna kolibaj projekt i skład graficzny diana gadula projekt i skład graficzny kamil zuzel projekt i skład graficzny przypisy
+
+muzeum volkswagena niem pisownia własna automuseum volkswagen muzeum zlokalizowane jest w wolfsburgu w kraju związkowym dolna saksonia w niemczech
+jest niezależną instytucją wspieraną przez firmę volkswagen ag
+na powierzchni 5000 m² wystawy stałej wystawiono 130 różnego rodzaju pojazdów wyłącznie marki volkswagen reprezentujących wszystkie roczniki produkcji
+w ramach wystaw specjalnych udostępnianych jest dodatkowo około 20 eksponatów ref name 0 ref
+historia już w roku 1954 zakłady produkcyjne volkswagena pod kierownictwem ówczesnego generalnego dyrektora heinricha nordhoffa zaczęły przechowywać modele samochodów będące w bieżącej produkcji a także wcześniej wyprodukowane brakujące modele pojazdów które zaczęto odkupować od ich właścicieli
+w 1967 na terenie fabryki volkswagena w wolfsburgu stworzono kolekcję pojazdów ale nie była ona dostępna dla publiczności
+25 kwietnia 1985 muzeum zostało otwarte w obecnej lokalizacji
+w pierwszych kilku latach działalności muzeum prezentowało pojazdy z całej ówczesnej grupy volkswagena która oprócz pojazdów marki volkswagen zawierała także eksponaty firm audi dkw horch nsu i wanderer
+1 stycznia 1992 muzeum i jego eksponaty zostały przekazane nowopowstałej fundacji muzeum volswagena niem stiftung automuseum volkswagen w celu uniezależnienia go od firmy volkswagen ag
+w 2001 muzeum zostało wyremontowane i zrestrukturyzowane
+od tego czasu udostępniane są tylko pojazdy marki volkswagen
+niektóre eksponaty zostały przeniesione do otwartego w czerwcu 2000 domu czasu niem zeithaus w autostadt
+w 2007 ponownie rozpoczęto prace związane z przebudową i renowacją muzeum
+8 listopada 2017 otwarto tzw gabinet silników niem motoren kabinett wystawę silników i przekładni biegów która obejmuje zbiór około 50 silników i skrzyń biegów ref name 0
+budynek i ekspozycja muzeum muzeum mieści się w budynku wybudowanym w 1966 w którym znajdował się dawniej zakład włókienniczy herrenkleiderwerke odermark na terenie parku przemysłowego w dzielnicy wolfsburga heنlingen
+wystawa ukazuje rozwój pierwszego volkswagena garbusa od 1930 roku aż do zaprzestania jego produkcji w 2003 w meksyku
+wystawa prezentuje samochody wyścigowe prototypy projekty studyjne i unikatowe modele
+pokazano również pojazdy specjalistyczne wykorzystywane np przez niemiecką pocztę federalną policję czy straż pożarną
+muzeum tworzy pięć wysp tematycznych kolega garbus generacja golfa rodzina volkswagena volkswagen transporter od korzyści do luksusu futurum volkswagen eksponaty wśród pojazdów chłodzonych powietrzem znajdują się garbus kdf 1943 samochód z napędem na cztery koła 1946 czterodrzwiowy garbus messerschmitt z frankfurtu 1953 duplikat milionowego volkswagena 1955 garbus ghia aigle 1956 garbus z filmu garbie 1969 vw karmann ghia type 14 coupé 1972 brazylijski samochód sportowy vw sp2 1973 ostatni garbus zbudowany w niemczech typ 1200 wyprodukowany w emden 1978 prototyp z 1949 i milionowy volkswagen transporter t1 1962 transporter t2b z napędem na cztery koła 1978 ref ref ref ref wśród chłodzonych wodą są jeden z najstarszych istniejących modeli golf i wykorzystany do testu długodystansowego alaska ziemia ognista 1974 ref ref polo ii sprint z doładowanym silnikiem bokser z tyłu 1983 golf i pirelli 1983 pierwszy zbudowany golf ii 1983 vw scirocco ii tr z dachem targa 1982 corrado roadster 1983 vw new beetle rsi kabriolet 2003 vw passat i gti 1977 ref ref w ekspozycji muzeum znajdują się prototypy i spektakularne pojazdy koncepcyjne karmann ghia czteroosobowy pojazd ea 47-12 1955 poprzednik późniejszego vw type 3 o nazwie ea 97-1 1960 prekursor pininfariny do vw type 4 o nazwie ea 142 1966 prekursor passata o nazwie ea 272 1972 van z drzwiami skrzydłowymi irvw futura 1989 samochód rekreacyjny vario 1990 1 litrowy samochód 2002 ref ref wśród samochodów wyścigowych i bijących rekordy m in formuła vau 1966 aerodynamik flunder arvw i 1980 golf i gti rheila 1981 vw iltis zwycięzca rajdu paryż dakar 1980 ref ref vw race touareg 2011 ref ref galeria gallery widths 150 heights 150 plik vw karmann ghia tc 145 red vl tce jpg jeden z eksponatów vw karmann ghia tc 145 plik vw käfer taxi von rometsch 1953 2 jpg jeden z eksponatów vw garbus taxi plik volkswagen prototype 1966 beetle replacement typ 4 harbinger jpg jeden z eksponatów volkswagen typ 4 gallery przypisy references br
+
+niezależni uczestnicy olimpijscy na letnich igrzyskach olimpijskich 1992 wypełnij po skończonym głosowaniu artykuł jest napisany poprawnie wszystkie błędy zgłoszone podczas pierwszej nominacji zostały poprawione dyskusja 20q56 1 lut 2019 cet dostrzeżone błędy merytoryczne opisz znalezione błędy lub podstawowe braki po znaku jeśli możesz popraw je zamiast zgłaszać dostrzeżone braki językowe opisz znalezione braki lub błędy po znaku jeśli możesz popraw je zamiast zgłaszać dostrzeżone braki uźródłowienia opisz znalezione braki lub błędy po znaku jeśli możesz popraw je zamiast zgłaszać dostrzeżone braki w neutralności opisz znalezione braki lub błędy po znaku jeśli możesz popraw je zamiast zgłaszać dostrzeżone błędy techniczne opisz znalezione błędy po znaku jeśli możesz popraw je zamiast zgłaszać opisz poprawione błędy lub braki i wykreśl je powyżej sprawdzone przez jeżeli przeczytałeś aś całe hasło i nie znalazłeś aś w nim żadnych błędów czy braków podpisz się po znaku
+
+mistrzostwa świata juniorów w narciarstwie klasycznym 1987 zawody sportowe które odbyły się w dniach 2 8 lutego 1987 r we włoskim asiago
+podczas mistrzostw zawodnicy rywalizowali w 10 konkurencjach w trzech dyscyplinach klasycznych skokach narciarskich kombinacji norweskiej oraz w biegach narciarskich
+w tabeli medalowej zwyciężyła reprezentacja zsrr której zawodnicy zdobyli też najwięcej medali 8 w tym 6 złotych 1 srebrny i 1 brązowy
+program 2 lutego skoki narciarskie skocznia normalna indywidualnie m 4 lutego biegi narciarskie 5 kilometrów k 10 kilometrów m skoki narciarskie skocznia normalna drużynowo m 5 lutego kombinacja norweska skocznia normalna 10 kilometrów indywidualnie m 6 lutego biegi narciarskie sztafeta 3x5 kilometrów k 3x10 kilometrów m 7 lutego biegi narciarskie 15 kilometrów k 30 kilometrów m 8 lutego kombinacja norweska skocznia normalna 3x10 kilometrów drużynowo m medaliści biegi narciarskie mężczyźni kobiety skoki narciarskie mężczyźni kombinacja norweska mężczyźni tabela medalowa bibliografia
+
+turniej bokserski w wadze piórkowejj do 57,2 kg w ramach igrzysk olimpijskich 1928 został rozegrany w dniach 7 11 sierpnia 1928 r
+wystartowało 18 zawodników z 18 krajów
+górna drabinka dolna drabinka bibliografia
+
+san josé de barlovento miasto w wenezueli w stanie miranda w regionie llanura de barlovento centrum administracyjne gminy andrés bello
+miasto w 2015 roku zamieszkiwało 21290 mieszkańców ref ref
+przypisy
+
+maciej wawrzyniec szykuła ur 10 sierpnia 1956 w stawiszynie polski samorządowiec nauczyciel działacz społeczny były lubuski kurator oświaty w latach 2010–2014 wicemarszałek województwa lubuskiego
+życiorys absolwent wydziału biologii i nauk o ziemi uniwersytetu im adama mickiewicza w poznaniu 1980
+kształcił się także na studiach podyplomowych z zakresu zarządzania oświatą oraz organizacji oświaty dla menedżerów na uniwersytecie szczecińskim organizacji i zarządzania oświatą w kształcenia nauczycieli im w spasowskiego oddział w kaliszu a także z zarządzania ryzykiem w instytucjach finansowych w szkole głównej handlowej
+pracował jako nauczyciel kierownik świetlicy i opiekun w internacie
+przez wiele lat był dyrektorem w zespole szkół budowlanych w gorzowie wielkopolskim
+od 1995 do 2003 pracował jako wiceprezes sekcji szkół budowlanych przy polskiej izbie przemysłowo handlowej budownictwa w warszawie od 1995 do 1997 był także ekspertem fundacji rozwoju ekonomicznego i kształcenia zawodowego se:ua w reasfeld
+w latach 2002–2006 sprawował funkcję lubuskiego kuratora oświaty a w latach 2009–2010 wiceprezesa zarządu państwowego funduszu rehabilitacji osób niepełnosprawnych
+działał także społecznie jako prezes zarządu oddziału towarzystwa przyjaciół dzieci w gorzowie wielkopolskim 1995–2009 prezydent gorzowskiego klubu rotary 2001–2003 szef wojewódzkiego oddziału ligi obrony kraju od 2003
+zasiadał także w radzie programowej radia zielona góra i kierował radą nadzorczą tvp3 gorzów wielkopolski
+zaangażował się w działalność polityczną w ramach polskiego stronnictwa ludowego został wiceprzewodniczącym jego lubuskich struktur
+w 2006 kandydował z jego ramienia do gorzowskiej rady miejskiej a w 2010 do sejmiku lubuskiego
+29 listopada 2010 został wybrany wicemarszałkiem województwa lubuskiego
+w wyborach samorządowych w 2014 bez powodzenia kandydował do sejmiku lubuskiego oraz na prezydenta gorzowa wielkopolskiego zdobył 0,53 głosów i zajął ostatnie siódme miejsce
+zakończył pełnienie funkcji wicewojewody 1 grudnia 2014 w związku z zakończeniem kadencji zarządu
+życie prywatne żonaty ma córkę
+mieszka w gorzowie wielkopolskim
+w 1985 został bez swojej wiedzy zarejestrowany przez służbę bezpieczeństwa jako kandydat na tajnego współpracownika i tw
+jego oświadczenie lustracyjne zostało uznane za zgodne z prawdą przez instytut pamięci narodowej
+przypisy
+
+turniej bokserski w wadze lekkiej do 61,2 kg w ramach igrzysk olimpijskich 1928 został rozegrany w dniach 8 11 sierpnia 1928 r
+wystartowało 24 zawodników z 24 krajów
+górna drabinka dolna drabinka bibliografia
+
+łyżwiarstwo figurowe na zimowym olimpijskim festiwalu młodzieży europy 2003 jedna z dyscyplin rozgrywanych podczas zimowego olimpijskiego festiwalu młodzieży europy od 25 do 31 stycznia 2003 w bledzie
+zawody odbyły się w czterech konkurencjach solistów solistek par sportowych i tanecznych
+w odróżnieniu od innych zawodów rangi mistrzowskiej w łyżwiarstwie figurowym każdy kraj zrzeszony w europejskim komitecie olimpijskim mógł wystawić w każdej konkurencji po jednym reprezentancie
+wyniki soliści solistki pary sportowe pary taneczne przypisy
+
+lüoceanogràfic wym
+wal
+wym
+oceanarium i morska stacja badawcza w walencji położona na terenie ciutat de les arts i les ciبncies miasteczka sztuk i nauk w pobliżu walenckiego portu
+obiekt którego charakterystyczną architekturę zaprojektował félix candela został oficjalnie otwarty 14 lutego 2003 r
+zajmuje teren o powierzchni 110 tys m² a wszystkie jego zbiorniki mieszczą łącznie 42 tys mو wody
+projekt architektoniczny lüoceanogràfic powstało w ramach miasteczka sztuk i nauk większego zespołu obiektów którego wzniesienie zlecił walencki samorząd
+konkurs na projekt założenia architektonicznego miasteczka w 1991 roku wygrał santiago calatrava
+cztery lata później pierwotne plany uległy istotnej modyfikacji zrezygnowano z budowy wieży telekomunikacyjnej na rzecz wielofunkcyjnego pałacu sztuk rozszerzono planowany profil działalności planetarium i dodatkowo zawarto w planach ideę budowy oceanarium
+w 1997 roku niedługo przed śmiercią architekt félix candela przedstawił swój projekt nowej części kompleksu który przewidywał wzniesienie szeregu awangardowych budowli
+część z nich wykorzystywała autorską konstrukcję hypar achypar oraz jchypar cienkościennych struktur o płaszczyźnie zakrzywionej jednocześnie w dwóch kierunkach za których wykonanie odpowiadali alberto domingo i carlos lрzaro z politechniki walenckiej
+zespół lüoceanogràfic pierwotna nazwa wybudowano na działce o powierzchni 110 tys m²
+zgodnie z projektem na terenie tym wzniesiono siedem lub się na wodzie” budynków składających się zarówno z części naziemnej jak i podziemnej lub podwodnej
+wśród nich znalazła się 26 metrowa kulista konstrukcja mieszcząca ptaszarnię pawilon mórz tropikalnych z 70 metrowym podwodnym tunelem budowle w kształcie muszli przegrzebka czy igloo
+kopuła tej ostatniej wykorzystywana jest jako 150 stopniowy ekran projekcyjny
+centralne miejsce oceanarium zajmuje dwupoziomowa podwodna restauracja której naziemna część ma kształt lilii wodnej składa się z ośmiu przypominających płatki kwiatu symetrycznych segmentów spośród których każdy stanowi fragment hiperbolicznej paraboloidy
+podobną technikę zastosowano także przy projektowaniu zwieńczonego trzema łukami budynku wejściowego o 26 metrowych szklanych ścianach
+na terenie obiektu częściowo pod poziomem wody zlokalizowano sale przystosowane do celów konferencyjnych mogące pomieścić ponad 400 osób audytorium z akwarium prezentującym ekosystem morza czerwonego a także kilka punktów gastronomicznych
+w położonej pod lustrem wody multimedialnej sali owalnej akwaria wyposażono w ekrany holograficzne
+dodatkowo w ramach kompleksu lüoceanogràfic powstało jedno z największych na świecie delfinariów z trybuną dla liczącej ponad 2 tys osób widowni pięć basenów mieści w sumie 26 tys mو wody
+w największym z nich pokazowym głębokość sięga 10,5 m pozostałe służą m in rekonwalescencji czy rozrodowi delfinów
+baseny zasilane są filtrowaną i dezynfekowaną wodą morską pompowaną bezpośrednio z zatoki walenckiej ujęcie znajduje się w pobliżu plaży malva rosa
+jednocześnie oceanarium dysponuje alternatywnym systemem wody morskiej w przypadku zanieczyszczenia wód zatoki
+gallery plik l oceanografic valencia spain 2 jan 07 cropped jpg budynek wejściowy plik oceanografic voliere jpg ptaszarnia plik oceanografic igloo 01 jpg pawilon arktyczny plik l oceanografic valencia spain 01 jpg restauracja plik jungerchor n’rnberg jpg występ chóru w podwodnym audytorium plik oceanogràfic 27052010 jpg delfinarium gallery zwierzęta w akwariach i basenach lüoceanogràfic umieszczono przedstawicieli około 500 gatunków organizmów w łącznej liczbie 45 tys sztuk które podzielono ze względu na teren występowania
+w strefie śródziemnomorskiej znalazło się dziewięć zbiorników tematycznych które zawierają około 7400 ryb i bezkręgowców
+poszczególne akwaria przedstawiają m in regiony portowe obszary zdominowane przez trawę morską czy koralowce ale też wody o sztucznie wzbudzanych falach
+olbrzymia ptaszarnia prezentuje faunę i florę terenów podmokłych lasów namorzynowych ameryki północnej oraz śródziemnomorskich mokradeł
+wśród przedstawicieli awifauny na terenie obiektu występują chociażby warzęchy ibisy czaple i kaczki
+oprócz tego w można tam zaobserwować kilka gatunków żółwi czy traszki waltla
+w pawilonie prezentującym obszary o wodzie umiarkowanej i tropikalnej w ośmiu odrębnych zbiornikach spotkać można m in przedstawicieli ichtiofauny raf koralowych błazenki pokolce mureny symphorichthys spilurus rozdymki wargacze
+w otwartych zbiornikach przebywają mieszkańcy mórz chłodnych i polarnych uchatki patagońskie foki pingwiny peruwiańskie czy pingwiny białobrewe
+w dużym akwarium w strefie oceanicznej pojemność 7 tys mو można obserwować różne gatunki ryb chrzęstnoszkieletowych np rekiny tawrosz piaskowy żarłacz brunatny glaucostegus cemiculus orleń afrykański piła drobnozębna
+w akwariach w pawilonie arktycznym umieszczono morsy i białuchy natomiast w delfinarium można obejrzeć pokazy butlonosów
+na terenie lüoceanogràfic zlokalizowano także zagrody dla krokodyli o powierzchni 450 m² oraz żółwi olbrzymich
+co więcej w ramach prowadzonej działalności naukowo badawczej obiekt prowadzi także ośrodek ratunkowy dla żółwi morskich gallery plik l oceanografic valencia spain 3 jan 07 jpg akwarium śródziemnomorskie plik l oceanogràfic 23138472453 jpg podwodny tunel w strefie oceanicznej plik oceanogràfic 06112008 jpg akwarium mórz tropikalnych plik eudocimusruber jpg ibis szkarłatny w ptaszarni w strefie mokradeł plik l oceanogràfic 18132120445 jpg białucha w podwodnej części plik animales del l oceanografico valencia 2009 3 jpg pokazy delfinów gallery przypisy bibliografia linki zewnętrzne
+
+opornik fasolowaty ref name szwey ref pueraria phaseoloides roxb
+benth gatunek z rodziny bobowatych
+pochodzi z azji południowo wschodniej i wschodniej gdzie rośnie w zaroślach na stokach wzgórz i gór
+został szeroko rozprzestrzeniony w strefie tropikalnej ref name china
+gatunek niewybredny w zakresie wymagań klimatycznych i glebowych uprawiany jest jako roślina pastewna na zielony nawóz ref name szwey oraz jako roślina przeciwerozyjna ref name encyk ref
+morfologia pokrój pnącze zielne o cienkiej ref name china czterokanciastej ref name szwey i brązowo owłosionej łodydze osiągającej 4 m długości ref name china
+liście u nasady z przylistkami jajowato lancetowatymi o długości do 5 mm
+blaszka liściowa złożona z trzema listkami
+listki o kształcie jajowatym lub rombowatym całobrzegie lub trójklapowe
+szczytowy listek osiąga do 10 cm długości i 9 cm szerokości podczas gdy boczne listki są mniejsze
+liście od spodu są biało owłosione z wierzchu włoski są przylegające ref name china
+kwiaty motylkowe zebrane w pojedyncze grona osiągające do 15 cm lub więcej długości
+z węzłów kwiatostanu zwykle wyrasta po kilka kwiatów na krótkich szypułkach u nasady z drobnymi równowąskimi i owłosionymi przysadkami do 4 mm długości
+działki kielicha zrośnięte szczeciniasto owłosione ok 6 mm długości
+płatki korony niebieskawe lub jasnofioletowe także w liczbie 5 nierówne
+górny w formie okazałego żagielka o średnicy do 12 mm
+boczne tworzą stulone skrzydełka okrywające łódeczkę zakończoną krótkim dzióbkiem
+zalążnia cienka
+szyjka słupka cienka zakończona drobnym główkowatym znamieniem ref name china
+owoce strąki walcowate do 8–10 cm długości i 0,4 cm średnicy łysiejące
+nasiona podługowato elipsoidalne o długości 4 mm w liczbie od 15 do 20 ref name china ref name szwey
+przypisy
+
+antoine du prat ur 17 stycznia 1463 w issoire zm 9 lipca 1535 w nantouillet francuski kardynał
+życiorys urodził się 17 stycznia 1463 roku w issoire jako syn antoineüa du prata seniora i ja:ueline bohier
+w 1493 roku ożenił się z franжoise veiny düabrouze i miał z nią córkę i dwóch synów jeden z nich guillaume został później biskupem clermont
+w 1495 roku został prokuratorem generalnym parlamentu tuluzy a dziewięć lat później ludwik xii mianował go maătre des re:uțtes na swoim dworze
+następnie pełnił urzędu przewodniczącego parlamentu paryskiego kanclerza francji i szambelana królewskiego
+towarzyszył franciszkowi i w jego wyprawie do italii gdzie odniósł zwycięstwo pod marignano
+w 1516 roku w imieniu franciszka i negocjował z leonem x konkordat w którym zawarł klauzulę przyznającą królowi prawo do mianowania członków kościelnej hierarchii
+po spotkaniu na polu złotogłowia du prat miał negocjować z thomasem wolseyem by zarządzić mediację między henrykiem viii a franciszkiem i jednak nie doszło to do skutku
+po śmierci żony du prat postanowił obrać karierę kościelną i w 1517 roku przyjął święcenia kapłańskie
+20 marca 1525 roku został wybrany arcybiskupem sens
+21 listopada 1527 roku został kreowany kardynałem prezbiterem i otrzymał kościół tytularny santüanastasia
+od 1528 roku pełnił także funkcję administratora apostolskiego albi a od 1534 meaux
+w 1529 roku przebywał w cambrai gdzie podpisano pokój pomiędzy ludwiką sabaudzką a małgorzatą z nawarry
+publicznie sprzeciwiał się papieżowi który odmówił unieważnienia małżeństwa henryka viii z katarzyną aragońską uznając że odmowa może być zbyt ryzykowna
+mimo tego nie zgadzał się z królem w jego decyzji ponownego małżeństwa bez uznania nieważności poprzedniego związku przez stolicę piotrową
+stanowczo sprzeciwiał się także rozszerzaniu protestantyzmu uznając stosowanie tortur i kar śmierci
+zmarł 9 lipca 1535 roku w nantouillet
+przypisy
+
+medaliści igrzysk olimpijskich w piłce siatkowej wypełnij po skończonym głosowaniu uzasadnienie napisany jest całkiem nieźle
+wygląda na to że spełnia kryteria artykułu na medal dyskusja 22q14 1 lut 2019 cet głosy za wpisz cztery tyldy po haszu głosy przeciw wpisz cztery tyldy po haszu dyskusja bardzo fajna lista choć klasyfikacje zawodników i zawodniczek są niepełne a przez to wręcz błędne złoty medalista powinien być wyżej niż czterokrotny medalista bez złota ale nie spełnia jednego z podstawowych
+nie może tu być czerwonych linków w tym przypadku należy uzupełnić biografie zawodników
+small small 23q53 1 lut 2019 cet
+
+szesnasty
+
+kategoria zawiera filmy ryszarda bolesławskiego
+
+ogród zoologiczny we wrocławiu
+
+anselm kampik ur 24 kwietnia 1949 w dillingen an der donau niemiecki okulista profesor retinolog specjalista schorzeń siatkówki
+wieloletni szef kliniki okulistyki uniwersytetu ludwika i maksymiliana w monachium
+życiorys medycynę studiował na uniwersytecie ludwika i maksymiliana w monachium 1968-1974 na której pozostał i rozpoczął karierę naukową
+stopień doktora nauk medycznych uzyskał na podstawie pracy dotyczącej odwarstwienia siatkówki 1974
+w monachijskiej klinice uniwersyteckiej ukończył specjalizację z okulistyki 1975-1979
+habilitował się na macierzystej uczelni w 1981 rozprawą pt epiretinale und vitreale membranen
+elektronenmikroskopische untersuchungen
+w 1985 został powołany na stanowisko profesora poziom c2 w niemieckim systemie kariery akademickiej okulistyki w monachijskiej klinice
+w okresie 1987-1993 był profesorem zwyczajnym okulistyki na uniwersytecie w w’rzburgu
+w 1993 wrócił do uniwersyteckiej kliniki okulistycznej w monachium gdzie objął stanowisko profesora zwyczajnego oraz dyrektora
+na emeryturę przeszedł w 2015 a pozycję szefa monachijskiej kliniki objął po nim jego uczeń siegfried priglinger
+od tej pory pracuje w prywatnej klinice
+ponadto jest wykładowcą w europejskiej szkole zaawansowanych studiów okulistycznych ang european school for advanced studies in ophthalmology esaso w szwajcarskim lugano ref name es ref
+w pracy badawczej i klinicznej specjalizuje się w retinologii zwłaszcza odwarstwieniach siatkówki operacjach zaćmy i soczewki schorzeniach plamki zwyrodnienie plamki żółtej chorobach styku szklistkowo siatkówkowego m in zespół trakcji szklistkowo plamkowej retinopatii cukrzycowej oraz minimalnie inwazyjnej chirurgii zarówno przedniego jak i tylnego odcinka oka
+jest synem franza oraz marii z domu haase
+żonaty z ursulą a kapfer ma troje dzieci daniel felicitas theresa ref name p ref
+publikacje jest autorem i współautorem 15 książek okulistycznych a kampik jahrbuch der augenheilkunde 1992 laseranwendung in der augenheilkunde biermann verlag z’lpich e gramer a kampik pharmakotherapie am auge springer verlag heidelberg 1992 a kampik jahrbuch der augenheilkunde 1994 optik und refraktion biermann verlag z’lpich a kampik f grehn durchblutungsstصrungen am auge b’cherei des augenarztes band 134 ferdinand enke verlag stuttgart 1995 a kampik f grehn das äuنere auge b’cherei des augenarztes band 137 ferdinand enke verlag stuttgart 1996 a kampik e messmer k thoma das auge conjunctivitis und sicca syndrom 0 medizinische und biopharmazeutische aspekte schriftenreihe der bayerischen landesapothekerkammer heft 53 1996 a kampik f grehn entz’ndungen des augeninneren b’cherei des augenarztes band 138 ferdinand enke verlag stuttgart 1997 a kampik f grehn nutzen und risiken augenärztlicher therapie b’cherei des augenarztes band 138 ferdinand enke verlag stuttgart 1998 a kampik f grehn augenärztliche differenzialdiagnose georg thieme verlag stuttgart new york 2000 a kampik f grehn augenärztliche therapie georg thieme verlag stuttgart new york 2002 a gandorfer m w ulbig a kampik erkrankungen der retina
+aktuelle aspekte der diagnostik und therapie uni med verlag ag bremen 2002 a kampik f grehn augenärztliche diagnostik georg thieme verlag stuttgart new york 2003 a kampik f grehn augenärztliche rehabilitation georg thieme verlag stuttgart new york 2005 a kampik f grehn e messmer 1000 fragen augenheilkunde georg thieme verlag stuttgart new york 2006 g spaeth h danesh meyer i goldberg a kampik ophthalmic surgery elsevier inc
+london 2011 ponadto artykuły publikowane w wiodących czasopismach okulistycznych ref ref ref ref ref ref
+funkcje i członkostwa w ramach niemieckiego towarzystwa okulistycznego deutsche ophthalmologische gesellschaft dog pełnił funkcje wiceprezesa 1995-1996 prezesa 1996-1997 oraz sekretarza generalnego 1999-2014
+był także prezesem academia ophthalmologica europaea 2011-2014
+w ramach niemieckiego towarzystwa retinologicznego retinologische gesellschaft był wieloletnim wiceprezesem 1992-2001
+ponadto jest członkiem association for research in vision and ophthalmology arvo niemieckojęzycznego towarzystwa implantacji soczewek wewnątrzgałkowych oraz chirurgii interwencyjnej i refrakcyjnej deutsche gesellschaft f’r intraokularlinsen implantation dgii macula society amerykańskiej akademii okulistyki american academy of ophthalmology aao oraz szwajcarskiego klubu julesa gonina skupiającego specjalistów zajmujących się schorzeniami siatkówki
+jest także członkiem redakcji oraz rad redakcyjnych czasopism naukowych m in graefe s archive for clinical and experimental ophthalmology od 2003 american journal of ophthalmology od 2003 der ophthalmologe od 1988 klinische monatsblätter f’r augenheilkunde od 2004 retina od 2002 oraz investigative ophthalmology visual science 1996-2007
+przypisy
+
+rogério sampaio cardoso ur 12 września 1967 ref ref brazylijski judoka
+złoty medalista olimpijski z barcelony ref ref
+zawody w 1992 były jego jedynymi igrzyskami olimpijskimi
+triumfował w wadze do 65 kilogramów
+w finale wygrał z węgrem jozsefem csakiem
+zdobył brązowy medal mistrzostw świata w 1992 i sięgnął po dwa złote medale mistrzostw kontynentu ref ref
+jego brat ricardo także był judoką i olimpijczykiem
+przypisy
+
+rogério sampaio
+
+gabriel de gramont ur w 1486 w gaskonii zm 26 marca 1534 w balmie francuski kardynał
+życiorys urodził się w 1486 roku w gaskonii jako syn rogera de gramont i eléonore de béarn jego bratem był charles późniejszy arcybiskup bordeaux
+w młodości postanowił obrać karierę kościelną i przyjął święcenia diakonatu
+28 kwietnia 1523 roku został wybrany biskupem couserans
+rok później został przeniesiony do diecezji tarbes
+w 1525 roku regentka ludwika sabaudzka wysłała go do hiszpanii jako oficjalnego ambasadora mającego wynegocjować uwolnienie franciszka i a w następnym roku został aresztowany przez karola v w odwecie za utworzenie sojuszu króla francji z henrykiem viii
+po uwolnieniu w 1526 roku udał się do anglii by w tajemnicy doprowadzić do rozpadu małżeństwa króla z katarzyną aragońską i ożenić go z małgorzatą z nawarry
+w 1529 roku został arcybiskupem bordeaux i nuncjuszem apostolskim we francji
+rok później zrezygnował z archidiecezji na rzecz swojego brata
+8 czerwca 1530 roku został kreowany kardynałem prezbiterem i otrzymał kościół tytularny san giovanni a porta latina
+dwa lata później został biskupem poitiers a w 1533 arcybiskupem tuluzy
+negocjował zawarcie małżeństwa przez henryka ii i katarzynę medycejską
+zmarł 26 marca 1534 roku w balmie
+przypisy
+
+konsulat liberii w gdańsku konsulat von liberia in danzig liberyjska placówka konsularna funkcjonująca w gdańsku
+pierwszy akredytowany przedstawiciel liberii w randze konsula rozpoczął urzędowanie w gdańsku w 1931
+urząd funkcjonował do 1936
+kierownicy konsulatu 1931-1932 max kصhnke konsul 1933-1936 ernst volkmann konsul ref adreنbuch f’r danzig und vororte kafemann verlag danzig 1936 ref siedziba hundegasse 81-82 obecnie ul ogarna 1931-1933 ringstrasse 50 ob
+ul kościuszki 1935-1936 bibliografia roczniki adreنbuch f’r danzig und vororte kafemann verlag danzig przypisy
+
+młoda polska wokalistaka
+autopromocyjny styl w moim mniemaniu na początku swojej kariery
+osobiście jednak nie widzę przesłanek ency
+dyskusja 22q58 1 lut 2019 cet
+
+crickhowell wal
+crughywel miasto w południowo wschodniej walii w hrabstwie powys historycznie w brecknockshire położone nad rzeką usk na terenie parku narodowego brecon beacons
+w 2011 roku liczyło 2063 mieszkańców
+znajdują się tu ruiny xiii wiecznego zamku crickhowell castle
+nazwa miasta pochodzi od nazwy położonego na północ od niego grodziska z epoki żelaza crug hywel
+przypisy
+
+south bruny national park park narodowy położony na wyspie bruny w granicach administracyjnych obszaru samorządu lokalnego kingborough council
+położenie park narodowy south bruny został utworzony 11 czerwca 1997 roku na mocy ustawy national parks and wildlife act 1970
+obejmuje powierzchnie 5 ha ref ref
+park narodowy położony jest w południowej części wyspy bruny która oddzielona jest od południowo wschodniego wybrzeża tasmanii kanałem düentrecasteaux
+znajduje się około 40 km na południe od stolicy stanu miasta hobart ref ref
+park narodowy składa się z trzech odseparowanych od siebie części położonych na półwyspie labillardiere peninsula przylądku fluted cape oraz nad wodami zatok cloudy bay i pyramid bay ref ref ref ref
+flora i fauna na terenie parku narodowego głównym gatunkiem lasotwórczym jest eucalyptus obli:ua z rodzaju eukaliptus natomiast gatunkiem domieszkowym jest eukaliptus rózgowaty eucalyptus viminalis
+ponadto na terenie parku występują następujące formacje roślinne wrzosowiska oraz scrub
+na obszarze wrzosowisk występuje m in wiele gatunków storczykowatych np prasophyllum castaneum natomiast na obszarach scrubu dominującym gatunkiem jest eucalyptus amygdalina z rodzaju eukaliptus
+ponadto na obszarze parku narodowego występuje endemiczny gatunek euphrasia fragosa z rodzaju świetlik ref name highlights ref
+fauna parku south bruny charakteryzuje się dużym bogactwem gatunkowym ptaków
+wśród bytujących gatunków ptaków można wymienić m in sieweczkę czarnogłową papużkę ostrosterną oraz pingwina małego
+wśród gatunków ssaków na terenie parku występują m in kolczatka australijska pademelon rudobrzuchy oraz kangur rdzawoszyi
+ponadto w wodach okalających wyspę występują kotiki karłowate lamparty morskie oraz z rzędu waleni humbaki i walenie południowe które wpływają do wód zatoki adventure bay ref name highlights
+przypisy
+b
