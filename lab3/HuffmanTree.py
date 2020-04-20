@@ -1,3 +1,6 @@
+from bitarray import bitarray
+
+
 class HuffmanTree:
     class Node:
         def __init__(self, left, weight, right=None):
@@ -14,13 +17,13 @@ class HuffmanTree:
             res += ' ' * h + '1 -> ' + self.right.__str__(h + 1)
             return res
 
-        def code(self, char, path=''):
+        def code(self, char, path=bitarray('')):
             if self.right is None:
                 return path if self.left == char else None
-            left_resp = self.left.code(char, path + '0')
+            left_resp = self.left.code(char, path + bitarray('0'))
             if left_resp is not None:
                 return left_resp
-            return self.right.code(char, path + '1')
+            return self.right.code(char, path + bitarray('1'))
 
     def __init__(self, letter_counts):
         nodes = []
