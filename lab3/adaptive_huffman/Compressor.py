@@ -1,4 +1,4 @@
-from HuffmanTree import HuffmanTree
+from HuffmanTree import *
 from bitarray import bitarray
 import struct
 
@@ -9,67 +9,55 @@ class Compressor:
         self.__alphabet_sizet = alhabet_size_type
         self.__dist_t = characters_count_type
 
-    @staticmethod
-    def count_in_file(path):
-        char_dist = {}
-        with open(path, 'r') as f:
-            char = f.read(1)
-            while char:
-                char_dist[char] = char_dist.get(char, 0) + 1
-                char = f.read(1)
-        return char_dist
-
-    def write_header(self, file_path, count):
-        characters = list(map(lambda x: x[0], reversed(sorted([(a, w) for a, w in count.items()], key=lambda x: x[1]))))
-        c_len = 0
-        with open(file_path, 'wb') as file:
-            chars_b = []
-            for char in characters:
-                c_b = char.encode(self.encoding)
-                c_len += len(c_b)
-                chars_b.append(c_b)
-            file.write(struct.pack(self.__alphabet_sizet, c_len))
-            for c_b in chars_b:
-                file.write(c_b)
-            for char in characters:
-                file.write(struct.pack(self.__dist_t, count[char]))
-
-    def read_header(self, file_path):
-        with open(file_path, 'rb') as file:
-            n = struct.unpack(self.__alphabet_sizet, file.read(struct.calcsize(self.__alphabet_sizet)))[0]
-            chars_b = file.read(n)
-            characters = chars_b.decode(self.encoding)
-            res = {}
-            for char in characters:
-                dist = struct.unpack(self.__dist_t, file.read(struct.calcsize(self.__dist_t)))[0]
-                res[char] = dist
-            seek_point = struct.calcsize(self.__alphabet_sizet) + n + len(characters) * struct.calcsize(self.__dist_t)
-            return res, seek_point
-
     def compress(self, file_path, out_path):
-        counts = self.count_in_file(file_path)
-        tree = HuffmanTree(counts)
-        self.write_header(out_path, counts)
-
-        with open(file_path, 'r') as file, open(out_path, 'ab') as out:
+        # tree = HuffmanTree()
+        # self.write_header(out_path, counts)
+        #
+        with open(file_path, 'r') as file, open(out_path, 'wb') as out:
             out_line = bitarray()
             char = file.read(1)
+            tree = HuffmanTree()
             while char:
-                out_line += tree.code(char)
+                resp = tree.next(char)
+                out_line += resp
+                print(char, ' = ', resp)
                 char = file.read(1)
             out.write(out_line.tobytes())
+            print(out_line)
 
     def decompress(self, file_path, out_path):
-        counts, seek_point = self.read_header(file_path)
-        tree = HuffmanTree(counts)
+        tree = HuffmanTree()
         with open(file_path, 'rb') as file, open(out_path, 'w') as out:
-            file.seek(seek_point)
             bit_read = bitarray()
             bit_read.frombytes(file.read())
-            code = ''
-            for bit in bit_read:
-                code += '1' if bit else '0'
+
+            i = 1
+            char = bit_read[i:i + 8].tobytes()
+            char = char.decode(self.encoding)
+            out.write(char)
+            tree.next(char)
+            i += 8
+            while i < len(bit_read):
+                bit = bit_read[i]
+                print('I ', i, ' = ', bit_read[:i], ' = ', 1 if bit else 0)
                 resp = tree.decode(bit)
-                if resp is not None:
-                    out.write(resp)
-                    code = ''
+
+                print('RESP char ', resp['char'], 'read ', resp['read_byte'])
+                if resp['char'] is not None:
+                    print('WRITE CHAR')
+                    out.write(resp['char'])
+                i += 1
+                if resp['read_byte']:
+                    print("READ BYTE ", bit_read[i:i + 8])
+                    char = bit_read[i:i + 8].tobytes()
+                    char = char.decode(self.encoding)
+                    print("BYTE: ", char, ' <- ', bit_read[i:i + 8])
+                    out.write(char)
+                    tree.next(char)
+                    i += 8
+
+# 01100001 0 01100010 00 01110 010010001100011011000110010001101100000000000100
+# 01100001 0 01100010 10 01110 010011001100011011100110010001011001111000001010
+
+#   01100001 0  01100010 00  01110010 010001100011011000110010001101100000000000100
+# 0 01100001 00 01100010 100 01110010 011000110001101110001100100010110011110000001010

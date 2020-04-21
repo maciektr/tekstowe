@@ -1,85 +1,85 @@
+from collections import defaultdict
 from bitarray import bitarray
+import struct
+
+
+class Node:
+    def __init__(self, char, weight=None, parent=None):
+        self.char = char
+        self.weight = weight if weight is not None else 1
+        self.parent = parent
+        
+
+        self.left = None
+        self.right = None
+
+    def code(self):
+        if self.parent is None:
+            return bitarray()
+        # print("H ", self.parent.code(), (bitarray('1') if self.parent.right == self else bitarray('0')))
+        return self.parent.code() + (bitarray('1') if self.parent.right == self else bitarray('0'))
+
+    def increment(self):
+        self.weight += 1
+        if self.parent is not None:
+            self.parent.increment()
+        if self.left is not None and self.right is not None:
+            if self.left.weight > self.right.weight:
+                self.left, self.right = self.right, self.left
+
+    def add_child(self, bit, node):
+        node.parent = self
+        if bit:
+            self.right = node
+        else:
+            self.left = node
+
+    def is_leaf(self):
+        return self.left is None and self.right is None
+
+    def decode(self, bit):
+        if self.is_leaf():
+            return None, self.char
+        if bit:
+            return self.right, None
+        else:
+            return self.left, None
 
 
 class HuffmanTree:
-    class Node:
-        def __init__(self, left, weight, right=None):
-            self.left = left
-            self.weight = weight
-            self.right = right
-
-        def __str__(self, h=1):
-            if self.right is None:
-                return '#' + str(self.weight) + ' ' + self.left
-
-            res = '#' + str(self.weight) + '\n'
-            res += ' ' * h + '0 -> ' + self.left.__str__(h + 1) + '\n'
-            res += ' ' * h + '1 -> ' + self.right.__str__(h + 1)
-            return res
-
-        def is_leaf(self):
-            return self.right is None
-
-        def get_char(self):
-            if not self.is_leaf():
-                raise BaseException('This Node is not a leaf')
-            return self.left
-
-        def code(self, char, path=bitarray('')):
-            if self.is_leaf():
-                return path if self.left == char else None
-            left_resp = self.left.code(char, path + bitarray('0'))
-            if left_resp is not None:
-                return left_resp
-            return self.right.code(char, path + bitarray('1'))
-
-        def decode(self, bit):
-            if bit:
-                if self.right.is_leaf():
-                    return None, self.right.get_char()
-                return self.right, None
-            if self.left.is_leaf():
-                return None, self.left.get_char()
-            return self.left, None
-
-    def __init__(self, letter_counts):
-        nodes = []
-        for a, weight in letter_counts.items():
-            nodes.append(HuffmanTree.Node(a, weight))
-        internal_nodes = []
-        leafs = sorted(nodes, key=lambda n: n.weight)
-        while len(leafs) + len(internal_nodes) > 1:
-            head = []
-            if len(leafs) >= 2:
-                head += leafs[:2]
-            elif len(leafs) == 1:
-                head += leafs[:1]
-            if len(internal_nodes) >= 2:
-                head += internal_nodes[:2]
-            elif len(internal_nodes) == 1:
-                head += internal_nodes[:1]
-            element_1, element_2 = sorted(head, key=lambda n: n.weight)[:2]
-            internal_nodes.append(HuffmanTree.Node(element_1,
-                                                   element_1.weight + element_2.weight,
-                                                   element_2))
-            if len(leafs) > 0 and element_1 == leafs[0]:
-                leafs = leafs[1:]
-            else:
-                internal_nodes = internal_nodes[1:]
-            if len(leafs) > 0 and element_2 == leafs[0]:
-                leafs = leafs[1:]
-            else:
-                internal_nodes = internal_nodes[1:]
-        self.root = internal_nodes[0]
-        self.dec_node = self.root
-
-    def get_root(self):
-        return self.root
-
-    def code(self, character):
-        return self.get_root().code(character)
+    def __init__(self, char='#'):
+        self.init_char = char
+        self.count = defaultdict(int)
+        self.nodes = {char: Node(char, 0)}
+        self.root = self.nodes[char]
+        self.curr_node = self.root
+        self.encoding = 'UTF-8'
 
     def decode(self, bit):
-        node, char = self.dec_node.decode(bit)
-        self.dec_node = node if node is not None else self.root
-        return char
+        node, char = self.curr_node.decode(bit)
+        self.curr_node = node if node is not None else self.root
+        resp = {'char': char, 'read_byte': node is not None and self.nodes[self.init_char] == node}
+        return resp
+
+    def next(self, char):
+        if char in self.nodes:
+            node = self.nodes[char]
+            # print('A: '+node.code().__str__() + ' ' + node.char)
+            node.increment()
+            return self.nodes[char].code()
+        else:
+            updated_node = self.nodes[self.init_char]
+            # print('B1: '+updated_node.code().__str__() + ' ' + updated_node.char)
+            # print('B2: '+"{0:b}".format(ord(char)) + ' ' + char)
+            node = Node(char, parent=updated_node)
+            self.nodes[char] = node
+            del self.nodes[self.init_char]
+            zero_node = Node(self.init_char, parent=updated_node, weight=0)
+            updated_node.add_child(0, zero_node)
+            updated_node.add_child(1, node)
+            self.nodes[self.init_char] = zero_node
+            updated_node.increment()
+            # return bitarray(bin(ord(char))[2:])
+            r = bitarray()
+            r.frombytes(char.encode(self.encoding))
+            return zero_node.code() + r
