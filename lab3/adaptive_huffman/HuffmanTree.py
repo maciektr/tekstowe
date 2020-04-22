@@ -4,11 +4,10 @@ import struct
 
 
 class Node:
-    def __init__(self, char, init_char, weight=None, parent=None):
+    def __init__(self, char, weight=None, parent=None):
         self.char = char
         self.weight = weight if weight is not None else 1
         self.parent = parent
-        self.init_char = init_char
 
         self.left = None
         self.right = None
@@ -61,7 +60,7 @@ class HuffmanTree:
     def __init__(self, char='#'):
         self.init_char = char
         self.count = defaultdict(int)
-        self.nodes = {char: Node(char, self.init_char, 0)}
+        self.nodes = {char: Node(char, 0)}
         self.root = self.nodes[char]
         self.curr_node = self.root
         self.encoding = 'UTF-8'
@@ -90,10 +89,10 @@ class HuffmanTree:
             a = updated_node.code()
             # print('B1: '+updated_node.code().__str__() + ' ' + updated_node.char)
             # print('B2: '+"{0:b}".format(ord(char)) + ' ' + char)
-            node = Node(char, self.init_char, parent=updated_node)
+            node = Node(char, parent=updated_node)
             self.nodes[char] = node
             del self.nodes[self.init_char]
-            zero_node = Node(self.init_char, self.init_char, parent=updated_node, weight=0)
+            zero_node = Node(self.init_char, parent=updated_node, weight=0)
             updated_node.add_child(0, zero_node)
             updated_node.add_child(1, node)
             self.nodes[self.init_char] = zero_node
