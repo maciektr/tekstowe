@@ -1,8 +1,9 @@
-lab3/files/wikipedia-tail-kruszwil.txt
-lab3/adaptive_huffman/out_comp.txt
-lab3/adaptive_huffman/out_decomp.txt
+lab3/static_huffman/files/wikipedia-tail-kruszwil.txt
 lab3/static_huffman/out_comp.txt
 lab3/static_huffman/out_decomp.txt
+lab3/adaptive_huffman/out_comp.txt
+lab3/adaptive_huffman/out_decomp.txt
+lab3/adaptive_huffman/files/a.txt
 lab1/wikipedia-tail-kruszwil.txt
 venv/
 # Created by https://www.gitignore.io/api/c,c++,cmake,python,clion+all,pycharm+all,jupyternotebooks,visualstudiocode
