@@ -23,9 +23,9 @@ class Node:
         self.weight += 1
         if self.parent is not None:
             self.parent.increment()
-        if self.left is not None and self.right is not None:
-            if self.left.weight > self.right.weight:
-                self.left, self.right = self.right, self.left
+        # if self.left is not None and self.right is not None:
+        #     if self.left.weight > self.right.weight:
+        #         self.left, self.right = self.right, self.left
 
     def add_child(self, bit, node):
         node.parent = self
@@ -33,14 +33,6 @@ class Node:
             self.right = node
         else:
             self.left = node
-
-    def decode(self, bit):
-        if self.char != self.init_char:
-            return None, self.char
-        if bit:
-            return self.right, None
-        else:
-            return self.left, None
 
     def print(self, h=0):
         print('H ', h, ': ', self.char)
