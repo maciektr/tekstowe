@@ -19,13 +19,28 @@ class Node:
         # print("H ", self.parent.code(), (bitarray('1') if self.parent.right == self else bitarray('0')))
         return self.parent.code() + (bitarray('1') if self.parent.right == self else bitarray('0'))
 
+    @staticmethod
+    def swap(node1, node2):
+        node1, node2 = node2, node1
+        node1.parent, node2.parent = node2.parent, node1.parent
+
+        if node1.parent.left is node2:
+            node1.parent.left = node1
+        else:
+            node1.parent.right = node1
+
+        if node2.parent.left is node1:
+            node2.parent.left = node2
+        else:
+            node2.parent.right = node2
+
     def increment(self):
         self.weight += 1
         if self.parent is not None:
             self.parent.increment()
-        # if self.left is not None and self.right is not None:
-        #     if self.left.weight > self.right.weight:
-        #         self.left, self.right = self.right, self.left
+        if self.left is not None and self.right is not None:
+            if self.left.weight > self.right.weight:
+                Node.swap(self.left, self.right)
 
     def add_child(self, bit, node):
         node.parent = self
@@ -90,6 +105,7 @@ class HuffmanTree:
             # self.print()
             return a + r
 
+    # TODO: Check inserting method
     def print(self):
         self.root.print()
         print("INIT ", self.nodes[self.init_char].code())
