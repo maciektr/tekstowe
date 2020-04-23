@@ -4,10 +4,8 @@ import struct
 
 
 class Compressor:
-    def __init__(self, encoding='UTF-8', alhabet_size_type='I', characters_count_type='I'):
+    def __init__(self, encoding='UTF-8'):
         self.encoding = encoding
-        self.__alphabet_sizet = alhabet_size_type
-        self.__dist_t = characters_count_type
 
     def compress(self, file_path, out_path):
         with open(file_path, 'r') as file, open(out_path, 'wb') as out:
