@@ -24,3 +24,15 @@ zawierać tych informacji w pliku nagłówkowym.
 | 9.6kB | 5.8kB | 39.5% | 0.238s | 0.063s
 | 97.7kB| 55.9kB | 42.7% | 3.46s | 0.223s 
 | 1.0MB | 0.595MB | 40.5% | 110.5s | 2.17s
+
+# Algorytm dynamicznej kompresji Huffmana
+## Format pliku wyjściowego 
+Kompresor definiuje, jako UTF-8, kodowanie użyte przy zapisie całych liter. W pierwszym bajcie pliku znajduje się liczbą bitów które zostały dopełnione zerami, tak aby plik składał się z całkowitej liczby bajtów. Taką ilość bitów należy pominąć na końcu parsowania pliku. Następny bajt określa zakodowany pierwszy znak pliku.  
+
+## Otrzymane wyniki
+| Rozmiar przed kompresją | Rozmiar po kompresji | Współczynnik kompresji |  Czas kompresji | Czas dekompresji | 
+|:-----------------------:|:--------------------:|:----------------------:|:--------------:|:----------------:|
+| 1kB | 0.71kB | 29% | 0.088s | 0.033s
+| 10.3kB | 6.9kB | 33% | 0.583s | 0.065s
+| 103kB| 69.4kB | 32.6% | 6.011s | 0.432s 
+| 1.0MB | 0.693MB | 30.7% | 69.681s | 3.981s
