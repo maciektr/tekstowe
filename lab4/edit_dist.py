@@ -53,15 +53,19 @@ def edit_sequence(a, b, edit_table=None):
     while len(queue) > 0:
         x, y, h = queue.pop(0)
         seen[x][y] = True
+        if len(h) > dist:
+            continue
 
         if x == len(a) and y == len(b):
             return h
 
         if x + 1 <= len(a) and not seen[x + 1][y] and edit_table[x + 1][y] <= dist:
-            queue.append((x + 1, y, h + [(Operation.REMOVE, x, a[x])]))
+            queue.append(
+                (x + 1, y, h + ([(Operation.REMOVE, x, a[x])] if edit_table[x][y] + 1 == edit_table[x + 1][y] else [])))
 
         if y + 1 <= len(b) and not seen[x][y + 1] and edit_table[x][y + 1] <= dist:
-            queue.append((x, y + 1, h + [(Operation.ADD, y, b[y])]))
+            queue.append(
+                (x, y + 1, h + ([(Operation.ADD, y, b[y])] if edit_table[x][y] + 1 == edit_table[x][y + 1] else [])))
 
         if x + 1 <= len(a) and y + 1 <= len(b) and not seen[x + 1][y + 1] \
                 and edit_table[x + 1][y + 1] <= dist:
@@ -82,7 +86,7 @@ def visualise(a, b):
         if op == Operation.REMOVE:
             p = pos + change
             q = pos + 1 + change
-            print(a[:p], '_', a[q:])
+            print(a[:p] + '_' + a[q:])
             a = a[:p] + a[q:]
             change -= 1
         elif op == Operation.ADD:
@@ -104,11 +108,11 @@ if __name__ == '__main__':
     # a = 'los'
     # b = 'kloc'
 
-    # a = 'Łódź'
-    # b = 'Lodz'
+    a = 'Łódza'
+    b = 'Lodz'
 
-    a = 'kwintesencja'
-    b = 'quintessence'
+    # a = 'kwintesencja'
+    # b = 'quintessence'
 
     # a = 'ATGAATCTTACCGCCTCG'
     # b = 'ATGAGGCTCTGGCCCCTG'
