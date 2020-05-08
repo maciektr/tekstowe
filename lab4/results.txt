@@ -4,12 +4,12 @@ Distance:  2.0
 +k+los
 klo*c*
 Finally:  kloc
-First word: Łódza 
-Second word: Lodz 
+First word: Łódź
+Second word: Lodz
 Distance:  3.0
-*L*ódza
-L*o*dza
-Lodz_
+*L*ódź
+L*o*dź
+Lod*z*
 Finally:  Lodz
 First word: kwintesencja 
 Second word: quintessence 

@@ -108,7 +108,7 @@ if __name__ == '__main__':
     # a = 'los'
     # b = 'kloc'
 
-    a = 'Łódza'
+    a = 'Łódź'
     b = 'Lodz'
 
     # a = 'kwintesencja'
