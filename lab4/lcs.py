@@ -4,16 +4,21 @@ from spacy.lang.pl import Polish
 from random import randint
 
 
-def lcs(x, y):
+def lcs(x, y, delta=None):
     if len(x) == 0 or len(y) == 0:
         return 0, []
+    if delta is None:
+        delta = (lambda a, b: 0 if a == b else 2)
 
-    dist, table = edit_distance(x, y, lambda a, b: 0 if a == b else 2)
+    dist, table = edit_distance(x, y, delta)
     result = []
     k, m = len(x), len(y)
     while k >= 0 and m >= 0 and not (k == 0 == m):
-        if x[k - 1] == y[m - 1]:
-            result.append(x[k - 1])
+        if delta(x[k - 1], y[m - 1]) == 0:
+            result.append(x[k - 1] if len(x[k - 1]) <= len(y[m - 1]) else y[m - 1])
+            k -= 1
+            m -= 1
+            continue
         if k - 1 >= 0 and m - 1 >= 0:
             if table[k - 1][m] < table[k][m - 1]:
                 k -= 1
@@ -40,7 +45,6 @@ def remove_random(arr, number):
         r = randint(0, len(arr) - 1)
         if not str(arr[r]).isalnum():
             continue
-        print('REM', arr[r])
         arr.pop(r)
         number -= 1
     return arr
