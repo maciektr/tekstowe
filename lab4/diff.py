@@ -19,12 +19,15 @@ def diff(path1, path2):
     lcs_ind, line_ind = 0, 0
     show = False
     first_shift = True
+    different = []
     while act1 < len(tokens1) and act2 < len(tokens2):
         if not delta(tokens2[act2], same[lcs_ind]) == 0:
+            different.append(tokens2[act2])
             act2 += 1
             show = True
             continue
         elif not delta(tokens1[act1], same[lcs_ind]) == 0:
+            different.append(tokens1[act1])
             act1 += 1
             show = True
             continue
@@ -49,7 +52,9 @@ def diff(path1, path2):
                 print("Difference in line", line_ind + 1)
                 print("<", ' '.join(tokens1[last1:act1]))
                 print(">", ' '.join(tokens2[last2:act2]))
+                print("Words not matching:", ','.join(list(filter(lambda x:not x=='', different))))
             show = False
+            different = []
             line_ind += same[lcs_ind].count('\n')
             last1 = act1 + 1
             last2 = act2 + 1
