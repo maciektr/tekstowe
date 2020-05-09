@@ -44,34 +44,33 @@ def edit_sequence(a, b, edit_table=None):
         _, edit_table = edit_distance(a, b)
     else:
         if len(a) + 1 != len(edit_table) or len(b) + 1 != len(edit_table[0]):
-            raise BaseException("Illegal argument: edit_table dimensions do not match words lenght.")
+            raise BaseException("Illegal argument: edit_table dimensions do not match words length.")
 
-    dist = edit_table[len(a)][len(b)]
-    seen = [[False for _ in range(len(b) + 1)] for _ in range(len(a) + 1)]
+    x, y = len(a), len(b)
+    h = []
+    while x >= 0 and y >= 0:
+        if x == 0 and y == 0:
+            break
+        if x - 1 >= 0 and y - 1 >= 0:
+            if edit_table[x - 1][y - 1] <= edit_table[x][y - 1] and edit_table[x - 1][y - 1] <= edit_table[x - 1][y]:
+                if not a[x - 1] == b[y - 1]:
+                    h += [(Operation.CHANGE, (x - 1, y - 1), (a[x - 1], b[y - 1]))]
+                x -= 1
+                y -= 1
+            elif edit_table[x][y - 1] < edit_table[x - 1][y - 1] and edit_table[x][y - 1] < edit_table[x - 1][y - 1]:
+                y -= 1
+                h += [(Operation.ADD, y, b[y])]
+            elif edit_table[x - 1][y] < edit_table[x - 1][y - 1] and edit_table[x - 1][y] < edit_table[x - 1][y - 1]:
+                x -= 1
+                h += [(Operation.REMOVE, x, a[x])]
+        elif x - 1 >= 0:
+            x -= 1
+            h += [(Operation.REMOVE, x, a[x])]
+        elif y - 1 >= 0:
+            y -= 1
+            h += [(Operation.ADD, y, b[y])]
 
-    queue = [(0, 0, [])]
-    while len(queue) > 0:
-        x, y, h = queue.pop(0)
-        seen[x][y] = True
-        if len(h) > dist:
-            continue
-
-        if x == len(a) and y == len(b):
-            return h
-
-        if x + 1 <= len(a) and not seen[x + 1][y] and edit_table[x + 1][y] <= dist:
-            queue.append(
-                (x + 1, y, h + ([(Operation.REMOVE, x, a[x])] if edit_table[x][y] + 1 == edit_table[x + 1][y] else [])))
-
-        if y + 1 <= len(b) and not seen[x][y + 1] and edit_table[x][y + 1] <= dist:
-            queue.append(
-                (x, y + 1, h + ([(Operation.ADD, y, b[y])] if edit_table[x][y] + 1 == edit_table[x][y + 1] else [])))
-
-        if x + 1 <= len(a) and y + 1 <= len(b) and not seen[x + 1][y + 1] \
-                and edit_table[x + 1][y + 1] <= dist:
-            queue.append((x + 1, y + 1, h + ([(Operation.CHANGE, (x, y), (a[x], b[y]))] if a[x] != b[y] else [])))
-
-    return None
+    return list(reversed(h))
 
 
 def visualise(a, b):
