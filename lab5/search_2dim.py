@@ -5,10 +5,10 @@ import numpy as np
 def lines_to_matrix(lines):
     max_line_len = max([len(line) for line in lines])
     for i in range(len(lines)):
-        line = lines[i]
+        line = list(lines[i])
         for _ in range(max_line_len - len(line)):
-            line += '\0'
-        lines[i] = np.array(list(line))
+            line.append('\0')
+        lines[i] = np.array(line)
     return np.vstack(lines)
 
 
