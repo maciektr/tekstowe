@@ -14,7 +14,7 @@ def zad5(image_path, pattern_path):
     print("Image:", image_path)
     pattern = read_as_gray(pattern_path)
     print("Pattern:", pattern_path)
-    print("Found:", search_2dim(img, pattern))
+    print("Found:", search_2dim(img, pattern[-10:-5, ]))
 
 
 def zad4(image_path, letter_paths):
