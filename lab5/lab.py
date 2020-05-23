@@ -41,7 +41,8 @@ def zad2(lines):
 
 def zad6(lines, text, img, part):
     print("Task 6")
-    print("Measuring execution for text of size", "(%s,%s)" % (len(lines), max([len(line) for line in lines])))
+    print("Measuring execution for text of size", "(%s,%s)" %
+          (len(lines), max([len(line) for line in lines])), "pattern", text)
     _, time = search_2dim(lines, text, measure_time=True)
     print("Automaton building took: %s seconds\nSearch took: %s seconds" % time)
     read_img = read_as_gray(img)
@@ -49,6 +50,25 @@ def zad6(lines, text, img, part):
     print("Measuring execution for image", img, read_img.shape, part, read_part.shape)
     _, time = search_2dim(read_img, read_part, measure_time=True)
     print("Automaton building took: %s seconds\nSearch took: %s seconds" % time)
+
+
+def zad7(lines, pattern):
+    print("Task 7")
+    for n in [1, 2, 4, 8]:
+        parts = []
+        part_len = len(lines) // n
+        k = 0
+        for i in range(n):
+            parts.append(lines[k:k+part_len if i < n - 1 else len(lines)])
+            k += part_len
+
+        print("Measuring for %s parts" % n)
+        part_time = 0
+        for part in parts:
+            _, time = search_2dim(part, pattern, measure_time=True)
+            print("Part search (with automaton building) took %s seconds" % (time[0] + time[1]))
+            part_time += time[0] + time[1]
+        print("Whole part took %s seconds" % part_time)
 
 
 def main():
@@ -73,7 +93,10 @@ def main():
     zad5(image_path, pattern_path)
 
     # Task 6
-    zad6(lines, lines[:200][:200], image_path, pattern_path)
+    zad6(lines, ['th', 'th'], image_path, pattern_path)
+
+    # Task 7
+    zad7(lines, ['th', 'th'])
 
 
 if __name__ == '__main__':
