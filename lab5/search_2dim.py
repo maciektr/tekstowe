@@ -26,7 +26,6 @@ def search_2dim(text, pattern):
         for i in range(states.shape[0]):
             states[i, k] = transition[int(states[i - 1, k])][text[i, k]]
 
-    pattern_columns = list(map(''.join, pattern_columns))
     match = [0 for _ in range(len(pattern_columns))]
     for i in range(len(pattern_columns)):
         for p in pattern_columns[i]:

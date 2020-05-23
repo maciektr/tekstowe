@@ -50,7 +50,7 @@ class AhoCorasick:
                     self.transition[k][pattern[q]] = len(self.transition) - 1
                     k = self.transition[k][pattern[q]]
                 if q == len(pattern) - 1:
-                    self.output[k].add(''.join(pattern))
+                    self.output[k].add(tuple(pattern))
 
         # print(list(map(lambda x: dict(x), self.transition)))
         self.create_fail()
