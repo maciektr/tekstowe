@@ -1,4 +1,4 @@
-from lab5.search_2dim import search_2dim
+from lab5.search_2dim import search_2dim, lines_to_matrix
 import numpy as np
 import imageio
 
@@ -39,6 +39,18 @@ def zad2(lines):
         print("Search for: ", char, "Found:", search_2dim(lines, [char, char]))
 
 
+def zad6(lines, text, img, part):
+    print("Task 6")
+    print("Measuring execution for text of size", "(%s,%s)" % (len(lines), max([len(line) for line in lines])))
+    _, time = search_2dim(lines, text, measure_time=True)
+    print("Automaton building took: %s seconds\nSearch took: %s seconds" % time)
+    read_img = read_as_gray(img)
+    read_part = read_as_gray(part)
+    print("Measuring execution for image", img, read_img.shape, part, read_part.shape)
+    _, time = search_2dim(read_img, read_part, measure_time=True)
+    print("Automaton building took: %s seconds\nSearch took: %s seconds" % time)
+
+
 def main():
     file_path = 'haystack.txt'
     image_path = 'haystack.png'
@@ -59,6 +71,9 @@ def main():
 
     # Task 5
     zad5(image_path, pattern_path)
+
+    # Task 6
+    zad6(lines, lines[:200][:200], image_path, pattern_path)
 
 
 if __name__ == '__main__':

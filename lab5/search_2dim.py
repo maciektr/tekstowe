@@ -1,5 +1,6 @@
 from lab5.aho import AhoCorasick
 import numpy as np
+import time
 
 
 def lines_to_matrix(lines):
@@ -12,14 +13,17 @@ def lines_to_matrix(lines):
     return np.vstack(lines)
 
 
-def search_2dim(text, pattern):
+def search_2dim(text, pattern, measure_time=False):
     text = lines_to_matrix(text)
     pattern = lines_to_matrix(pattern)
     pattern_columns = [pattern[:, k] for k in range(pattern.shape[1])]
 
+    start_time = time.time()
     aho = AhoCorasick(pattern_columns)
     transition = aho.transition
     output = aho.output
+    build_time = time.time() - start_time
+    start_time = time.time()
 
     states = np.zeros(text.shape)
     for k in range(states.shape[1]):
@@ -36,7 +40,10 @@ def search_2dim(text, pattern):
         for k in range(states.shape[1] - len(pattern_columns)):
             if (states[i, k:k + len(pattern_columns)] == match).all():
                 result.append((i - pattern.shape[0] + 1, k))
+    search_time = time.time() - start_time
 
+    if measure_time:
+        return result, (build_time, search_time)
     return result
 
 
