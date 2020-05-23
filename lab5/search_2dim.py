@@ -27,15 +27,15 @@ def search_2dim(text, pattern):
             states[i, k] = transition[int(states[i - 1, k])][text[i, k]]
 
     pattern_columns = list(map(''.join, pattern_columns))
+    match = [0 for _ in range(len(pattern_columns))]
+    for i in range(len(pattern_columns)):
+        for p in pattern_columns[i]:
+            match[i] = transition[match[i]][p]
+    match = np.array(match)
     result = []
     for i in range(states.shape[0]):
         for k in range(states.shape[1] - len(pattern_columns)):
-            res = True
-            for m in range(len(pattern_columns)):
-                pat = pattern_columns[m]
-                if pat not in output[int(states[i, k + m])]:
-                    res = False
-            if res:
+            if (states[i, k:k + len(pattern_columns)] == match).all():
                 result.append((i - pattern.shape[0] + 1, k))
 
     return result
