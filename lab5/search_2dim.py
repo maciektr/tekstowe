@@ -36,12 +36,17 @@ def search_2dim(text, pattern):
                 if pat not in output[int(states[i, k + m])]:
                     res = False
             if res:
-                result.append((i, k))
+                result.append((i - pattern.shape[0] + 1, k))
 
     return result
 
 
 if __name__ == '__main__':
-    text = ["abababb", "aaaabbb", "bbbaaab", "aaabbaa", "bbaaabb", "aabaaaa"]
+    text = ["abababb",
+            "aaaabbb",
+            "bbbaaab",
+            "aaabbaa",
+            "bbaaabb",
+            "aabaaaa"]
     pat = ["aaa", "bba", "aab"]
     print(search_2dim(text, pat))
