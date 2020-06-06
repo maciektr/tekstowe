@@ -32,7 +32,7 @@ class Kmr:
         return math.floor(math.log2(n))
 
     def kmr(self, text):
-        if self.text == text:
+        if self.text == text and self.names is not None and self.entries is not None:
             return self.names, self.entries
         self.text = text
 
@@ -61,12 +61,14 @@ class Kmr:
             raise Exception("Pattern len cannot exceed text len.")
 
         pat_and_text = pattern + Kmr.guard_char + text
-        names, entries = self.kmr(pat_and_text)
+        if self.names is None or self.entries is None:
+            self.kmr(pat_and_text)
+
         part_max_len = 2 ** Kmr.get_max_factor(len(pattern))
         res = []
-        for i in range(len(pattern), len(names[part_max_len]) - len(pattern) + part_max_len):
-            if names[part_max_len][0] == names[part_max_len][i] \
-                    and names[part_max_len][len(pattern) - part_max_len] == names[part_max_len][i + len(pattern) - part_max_len]:
+        for i in range(len(pattern), len(self.names[part_max_len]) - len(pattern) + part_max_len):
+            if self.names[part_max_len][0] == self.names[part_max_len][i] \
+                    and self.names[part_max_len][len(pattern) - part_max_len] == self.names[part_max_len][i + len(pattern) - part_max_len]:
                 res.append(i-len(pattern)-1)
         return res
 
