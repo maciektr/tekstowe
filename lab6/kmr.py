@@ -31,7 +31,7 @@ class Kmr:
     def get_max_factor(n):
         return math.floor(math.log2(n))
 
-    def kmr(self, text):
+    def kmr(self, text, stop_at=None):
         if self.text == text and self.names is not None and self.entries is not None:
             return self.names, self.entries
         self.text = text
@@ -42,7 +42,7 @@ class Kmr:
         position_to_index, first_entry = Kmr.sort_rename(list(text))
         names = {1: position_to_index}
         entries = {1: first_entry}
-        for i in range(1, factor):
+        for i in range(1, factor if stop_at is None or stop_at >= factor else stop_at):
             power = 2 ** (i - 1)
             new_sequence = []
             for j in range(len(text)):
@@ -61,8 +61,9 @@ class Kmr:
             raise Exception("Pattern len cannot exceed text len.")
 
         pat_and_text = pattern + Kmr.guard_char + text
+        max_pat_factor = max(1, Kmr.get_max_factor(len(pattern)) * 2)
         if self.names is None or self.entries is None:
-            self.kmr(pat_and_text)
+            self.kmr(pat_and_text, stop_at=max_pat_factor)
 
         part_max_len = 2 ** Kmr.get_max_factor(len(pattern))
         res = []
