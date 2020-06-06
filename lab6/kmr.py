@@ -4,8 +4,12 @@ import math
 class Kmr:
     guard_char = '#'
 
-    def __init__(self):
-        pass
+    def __init__(self, guard_char='#'):
+        if guard_char is not None:
+            Kmr.guard_char = guard_char
+            self.names = None
+            self.entries = None
+            self.text = None
 
     @staticmethod
     def sort_rename(sequence):
@@ -28,9 +32,10 @@ class Kmr:
         return math.floor(math.log2(n))
 
     def kmr(self, text):
-        # original_length = len(text)
-        # factor = math.floor(math.log2(len(text)))
-        # max_lenght = 2 ** factor
+        if self.text == text:
+            return self.names, self.entries
+        self.text = text
+
         factor = Kmr.get_max_factor(len(text))
         padding_lenght = 2 ** (factor + 1) - 1
         text += Kmr.guard_char * padding_lenght
@@ -46,7 +51,24 @@ class Kmr:
             position_to_index, first_entry = Kmr.sort_rename(new_sequence)
             names[power * 2] = position_to_index
             entries[power * 2] = first_entry
-        return names, entries
+
+        self.names = names
+        self.entries = entries
+        return self.names, self.entries
+
+    def search(self, text, pattern):
+        if len(pattern) > len(text):
+            raise Exception("Pattern len cannot exceed text len.")
+
+        pat_and_text = pattern + Kmr.guard_char + text
+        names, entries = self.kmr(pat_and_text)
+        part_max_len = 2 ** Kmr.get_max_factor(len(pattern))
+        res = []
+        for i in range(len(pattern), len(names[part_max_len]) - len(pattern) + part_max_len):
+            if names[part_max_len][0] == names[part_max_len][i] \
+                    and names[part_max_len][len(pattern) - part_max_len] == names[part_max_len][i + len(pattern) - part_max_len]:
+                res.append(i-len(pattern)-1)
+        return res
 
 
 if __name__ == '__main__':
