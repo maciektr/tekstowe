@@ -2,9 +2,9 @@ import math
 
 
 class Kmr:
-    guard_char = '#'
+    guard_char = None
 
-    def __init__(self, guard_char='#'):
+    def __init__(self, guard_char='~'):
         if guard_char is not None:
             Kmr.guard_char = guard_char
             self.names = None
