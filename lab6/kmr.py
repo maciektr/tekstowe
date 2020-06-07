@@ -62,7 +62,7 @@ class Kmr:
 
         pat_and_text = pattern + Kmr.guard_char + text
         max_pat_factor = max(1, Kmr.get_max_factor(len(pattern)) * 2)
-        if self.names is None or self.entries is None:
+        if self.text != pat_and_text or self.names is None or self.entries is None:
             self.kmr(pat_and_text, stop_at=max_pat_factor)
 
         part_max_len = 2 ** Kmr.get_max_factor(len(pattern))
