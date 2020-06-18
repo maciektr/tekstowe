@@ -52,13 +52,10 @@ class Regex:
         self.transition.append(defaultdict(lambda: Regex.__DEFAULT_VAL, self.transition[k]))
         i = 1
         q = 1
-        seen_i = 0
         while q < len(pattern): # - seen_i:
             add_next = True
             if q < len(pattern):
                 if pattern[q] == '[':
-                    # self.transition.append(defaultdict(lambda: Regex.__DEFAULT_VAL, self.transition[k]))
-                    # i += 1
                     q += 1
                     old_k = k
                     k = self.transition[k][pattern[q]]
@@ -98,46 +95,33 @@ class Regex:
                     elif pattern[q-1] == ')':
                         pass
                     else:
-                        print('*', i)
                         self.transition[i-1][pattern[q - 1]] = i
                         self.transition[i-1][Regex.__EMPTY_PROD] = i
-                        # self.transition.append(defaultdict(lambda: Regex.__DEFAULT_VAL, self.transition[k]))
                         self.transition[i][pattern[q-1]] = i
                         add_next = False
-                        # i+=1
-
-                        # self.transition[i][pattern[q-1]] = i
-                        # self.transition[i][Regex.__EMPTY_PROD] = i + 1
-                        # i -= 1
-                    # q += 1
                 elif pattern[q] == '+':
                     if pattern[q-1] == ']':
                         pass
                     elif pattern[q-1] == ')':
                         pass
                     else:
-                        pass
-                        # self.transition[i][pattern[q-1]] = i
-
-                    # q += 1
+                        self.transition[i - 1][pattern[q - 1]] = i
+                        self.transition[i][pattern[q - 1]] = i
+                        add_next = False
                 elif pattern[q] == '?':
                     if pattern[q - 1] == ']':
                         pass
                     elif pattern[q - 1] == ')':
                         pass
                     else:
-                        pass
-                        # self.transition[i][pattern[q - 1]] = i
-                    # q += 1
+                        self.transition[i-1][pattern[q - 1]] = i
+                        self.transition[i-1][Regex.__EMPTY_PROD] = i
+                        add_next = False
                 elif pattern[q] == '(':
                     pass
                 else:
-                    # self.transition.append(defaultdict(lambda: Regex.__DEFAULT_VAL, self.transition[k]))
-                    # i += 1
-                    # print('I', i, len(self.transition))
                     self.transition[i][pattern[q]] = i + 1
                     k = self.transition[k][pattern[q]]
-            # else:
             if add_next:
                 self.transition.append(defaultdict(lambda: Regex.__DEFAULT_VAL, self.transition[k]))
                 i += 1
@@ -146,17 +130,6 @@ class Regex:
     def match(self, text):
         a = len(self.transition) - 1
         res = []
-
-        # q = 0
-        # for s in range(len(text)):
-        #     if self.transition[q]['.'] != Regex.__DEFAULT_VAL:
-        #         q = self.transition[q]['.']
-        #     else:
-        #         q = self.transition[q][text[s]]
-        #     if q == a:
-        #         res.append(s)
-
-        # q = 0
         queue = []
         queue.append((0, 0))
         while len(queue) > 0:
@@ -164,16 +137,10 @@ class Regex:
             queue.pop()
             q = state
             s = pos
-            # for s in range(pos, len(text)):
-            # print('Que', s, text[s], state)
             while s < len(text):
                 # print('M', text[s], q)
-                    # print("MATCHED")
                 if self.transition[q][Regex.__EMPTY_PROD] != Regex.__DEFAULT_VAL:
-                    # print("QUE append")
                     queue.append((s, self.transition[q][Regex.__EMPTY_PROD]))
-                    # q = self.transition[q][Regex.__EMPTY_PROD]
-                    # s -= 1
                 if self.transition[q]['.'] != Regex.__DEFAULT_VAL:
                     q = self.transition[q]['.']
                 else:
@@ -181,13 +148,12 @@ class Regex:
                 if q == a:
                     res.append(s)
                 s += 1
-
         return list(set(res))
 
 
 if __name__ == '__main__':
     # 'aba*f*de'
-    r = Regex('ab*c*d')
+    r = Regex('ab*c?[efg]d')
     for t in r.transition:
         print(t)
-    print(r.match('aabbbbbbcccccd'))
+    print(r.match('aabbbbbbed'))
