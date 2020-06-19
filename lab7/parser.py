@@ -6,6 +6,7 @@ class Parser:
         ".": 1,
         "*": 2,
     }
+    __WHITE_CHARS = [' ', '\t', '\n', '\r', '\f', '\v']
 
     @staticmethod
     def parse_regex(regex: str):
@@ -26,19 +27,25 @@ class Parser:
                 result += Parser.__CONCAT_OP
                 result += '('
                 k = i + 1
+                group = []
                 while k < len(regex) and regex[k] != ']':
+                    if regex[k] == '-':
+                        group.extend(Parser.chars_between(regex[k-1], regex[k+1]))
+                    else:
+                        group.append(regex[k])
                     k += 1
-                result += '|'.join(list(regex[i + 1:k]))
+                result += '|'.join(group)
                 result += ')'
                 i = k
             elif token == '\\':
-                pass
+                result += '.(' + '|'.join(Parser.add_group_by_symbol(regex[i + 1])) + ')'
+                i += 1
             else:
                 if i != 0 and regex[i - 1] not in no_concat_past:
                     result += Parser.__CONCAT_OP
                 result += token
             i += 1
-        # print('pre', result)
+        print('pre', result)
         return result
 
     @staticmethod
@@ -66,3 +73,30 @@ class Parser:
 
         result.extend(reversed(operator_stack))
         return ''.join(result)
+
+    @staticmethod
+    def chars_between(low, high):
+        return [chr(x) for x in range(ord(low) + 1, ord(high))]
+
+    @staticmethod
+    def add_group_by_symbol(symbol):
+        if symbol == 'd':
+            # Match digit
+            return Parser.chars_between('0', '9') + ['0', '9']
+
+        if symbol == 's':
+            # Match whitespace
+            return Parser.__WHITE_CHARS
+
+        if symbol == 'w':
+            # Match word symbols
+            return Parser.chars_between('a', 'z') + \
+                   Parser.chars_between('A', 'Z') + \
+                   Parser.chars_between('0', '9') + \
+                   ['a', 'z', 'A', 'Z', '0', '9']
+
+        if symbol == 'a':
+            # Match alphabetical
+            return Parser.chars_between('a', 'z') + \
+                   Parser.chars_between('A', 'Z') + \
+                   ['a', 'z', 'A', 'Z']

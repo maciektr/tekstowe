@@ -2,11 +2,8 @@ from collections import defaultdict
 
 
 class State:
-    __INITIAL_STATE = 0
-
     def __init__(self, final=False):
         self.final = final
-        # self.transitions = defaultdict(lambda: State.__INITIAL_STATE)
         self.transitions = {}
         self.epsilon_transitions = []
 
