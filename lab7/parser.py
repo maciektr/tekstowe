@@ -13,18 +13,32 @@ class Parser:
 
     @staticmethod
     def preprocessing(regex: str):
+        # print('regex', regex)
         operators = set(Parser.__OPERATORS + [')'])
         no_concat_past = {'|', '('}
         result = ''
-        for i in range(len(regex)):
+        i = 0
+        while i < len(regex):
             token = regex[i]
             if token in operators:
                 result += token
+            elif token == '[':
+                result += Parser.__CONCAT_OP
+                result += '('
+                k = i + 1
+                while k < len(regex) and regex[k] != ']':
+                    k += 1
+                result += '|'.join(list(regex[i + 1:k]))
+                result += ')'
+                i = k
+            elif token == '\\':
+                pass
             else:
                 if i != 0 and regex[i - 1] not in no_concat_past:
                     result += Parser.__CONCAT_OP
                 result += token
-
+            i += 1
+        # print('pre', result)
         return result
 
     @staticmethod
@@ -36,8 +50,8 @@ class Parser:
         for token in expression:
             if token in Parser.__OPERATORS:
                 while (len(operator_stack) > 0
-                       and Parser.__PRECEDENCE[operator_stack[-1]] >= Parser.__PRECEDENCE[token]
                        and operator_stack[-1] != '('
+                       and Parser.__PRECEDENCE[operator_stack[-1]] >= Parser.__PRECEDENCE[token]
                 ):
                     result.append(operator_stack.pop())
                 operator_stack.append(token)
