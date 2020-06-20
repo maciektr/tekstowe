@@ -57,6 +57,10 @@ class Nfa:
         for token in postfix_expr:
             if token == '*':
                 stack.append(stack.pop().closure())
+            elif token == '+':
+                stack.append(stack.pop().one_or_more_closure())
+            elif token == '?':
+                stack.append(stack.pop().maybe())
             elif token == '|':
                 right = stack.pop()
                 left = stack.pop()
@@ -88,15 +92,27 @@ class Nfa:
 
         return Nfa(start, end)
 
-    def closure(self):
+    def padding(self):
         start = State(final=False)
         end = State(final=True)
 
-        start.add_epsilon_transition(end)
         start.add_epsilon_transition(self.start)
-
         self.end.add_epsilon_transition(end)
-        self.end.add_epsilon_transition(self.start)
         self.end.final = False
 
         return Nfa(start, end)
+
+    def one_or_more_closure(self):
+        nfa = self.padding()
+        self.end.add_epsilon_transition(self.start)
+        return nfa
+
+    def closure(self):
+        nfa = self.one_or_more_closure()
+        nfa.start.add_epsilon_transition(nfa.end)
+        return nfa
+
+    def maybe(self):
+        nfa = self.padding()
+        nfa.start.add_epsilon_transition(nfa.end)
+        return nfa

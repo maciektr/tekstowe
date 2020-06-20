@@ -1,11 +1,13 @@
 class Parser:
     CONCAT_OP = chr(6)
     MATCH_ALL_OP = '.'
-    __OPERATORS = ['|', '*', CONCAT_OP]
+    __OPERATORS = ['|', '*', '+', '?', CONCAT_OP]
     __PRECEDENCE = {
         '|': 0,
         CONCAT_OP: 1,
         '*': 2,
+        '+': 2,
+        '?': 2,
     }
     __WHITE_CHARS = [' ', '\t', '\n', '\r', '\f', '\v']
 
