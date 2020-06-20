@@ -3,9 +3,12 @@ from nfa import Nfa, State
 
 
 class Regex:
-    def __init__(self, regex):
-        postfix = Parser.parse_regex(regex)
-        print('Postfix:', postfix)
+    def __init__(self, regex, verbose=False):
+        if verbose:
+            print('Regex:', regex)
+        postfix = Parser.parse_regex(regex, verbose)
+        if verbose:
+            print('Regex in reversed polish notation:', postfix)
         self.nfa = Nfa.from_postfix(postfix)
 
     def match(self, text: str):
@@ -23,8 +26,3 @@ class Regex:
             if state.final:
                 return True
         return False
-
-
-if __name__ == '__main__':
-    m = Regex('ab*\\ad.z')
-    print(m.match('abbbbbcddz'))

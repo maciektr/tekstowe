@@ -12,12 +12,15 @@ class Parser:
     __WHITE_CHARS = [' ', '\t', '\n', '\r', '\f', '\v']
 
     @staticmethod
-    def parse_regex(regex: str):
-        return Parser.to_postfix(Parser.preprocessing(regex))
+    def parse_regex(regex: str, verbose=False):
+        preproc = Parser.preprocessing(regex)
+        if verbose:
+            print('Preprocessed regex:', preproc)
+        postfix = Parser.to_postfix(preproc)
+        return postfix
 
     @staticmethod
     def preprocessing(regex: str):
-        # print('regex', regex)
         operators = set(Parser.__OPERATORS + [')'])
         no_concat_past = {'|', '('}
         result = ''
@@ -27,8 +30,7 @@ class Parser:
             if token in operators:
                 result += token
             elif token == '[':
-                result += Parser.CONCAT_OP
-                result += '('
+                result += Parser.CONCAT_OP + '('
                 k = i + 1
                 group = []
                 while k < len(regex) and regex[k] != ']':
@@ -44,11 +46,10 @@ class Parser:
                 result += Parser.CONCAT_OP + '(' + '|'.join(Parser.add_group_by_symbol(regex[i + 1])) + ')'
                 i += 1
             else:
-                if i != 0 and regex[i - 1] not in no_concat_past:
+                if i > 0 and regex[i - 1] not in no_concat_past:
                     result += Parser.CONCAT_OP
                 result += token
             i += 1
-        print('pre', result)
         return result
 
     @staticmethod
@@ -97,7 +98,7 @@ class Parser:
                    Parser.chars_between('0', '9') + \
                    ['a', 'z', 'A', 'Z', '0', '9']
 
-        if symbol == 'a':
+        if symbol == 'c':
             # Match alphabetical
             return Parser.chars_between('a', 'z') + \
                    Parser.chars_between('A', 'Z') + \
