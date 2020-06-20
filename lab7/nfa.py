@@ -35,13 +35,6 @@ class Nfa:
         self.end = end
 
     @staticmethod
-    def from_epsilon():
-        start = State(final=False)
-        end = State(final=True)
-        start.add_epsilon_transition(end)
-        return Nfa(start, end)
-
-    @staticmethod
     def from_symbol(symbol):
         start = State(final=False)
         end = State(final=True)
@@ -50,9 +43,6 @@ class Nfa:
 
     @staticmethod
     def from_postfix(postfix_expr: str):
-        if postfix_expr == '':
-            return Nfa.from_epsilon()
-
         stack = []
         for token in postfix_expr:
             if token == '*':
@@ -62,13 +52,13 @@ class Nfa:
             elif token == '?':
                 stack.append(stack.pop().maybe())
             elif token == '|':
-                right = stack.pop()
-                left = stack.pop()
-                stack.append(left.union(right))
+                second = stack.pop()
+                first = stack.pop()
+                stack.append(first.union(second))
             elif token == Parser.CONCAT_OP:
-                right = stack.pop()
-                left = stack.pop()
-                stack.append(left.concat(right))
+                second = stack.pop()
+                first = stack.pop()
+                stack.append(first.concat(second))
             else:
                 stack.append(Nfa.from_symbol(token))
 

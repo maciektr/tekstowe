@@ -1,5 +1,5 @@
 class Parser:
-    CONCAT_OP = chr(6)
+    CONCAT_OP = '^' # chr(6)
     MATCH_ALL_OP = '.'
     __OPERATORS = ['|', '*', '+', '?', CONCAT_OP]
     __PRECEDENCE = {
@@ -27,9 +27,7 @@ class Parser:
         i = 0
         while i < len(regex):
             token = regex[i]
-            if token in operators:
-                result += token
-            elif token == '[':
+            if token == '[':
                 result += Parser.CONCAT_OP + '('
                 k = i + 1
                 group = []
@@ -46,7 +44,7 @@ class Parser:
                 result += Parser.CONCAT_OP + '(' + '|'.join(Parser.add_group_by_symbol(regex[i + 1])) + ')'
                 i += 1
             else:
-                if i > 0 and regex[i - 1] not in no_concat_past:
+                if i > 0 and token not in operators and regex[i - 1] not in no_concat_past:
                     result += Parser.CONCAT_OP
                 result += token
             i += 1
