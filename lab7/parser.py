@@ -1,10 +1,11 @@
 class Parser:
-    __CONCAT_OP = '.'
-    __OPERATORS = [".", "|", "*"]
+    CONCAT_OP = chr(6)
+    MATCH_ALL_OP = '.'
+    __OPERATORS = ['|', '*', CONCAT_OP]
     __PRECEDENCE = {
-        "|": 0,
-        ".": 1,
-        "*": 2,
+        '|': 0,
+        CONCAT_OP: 1,
+        '*': 2,
     }
     __WHITE_CHARS = [' ', '\t', '\n', '\r', '\f', '\v']
 
@@ -24,7 +25,7 @@ class Parser:
             if token in operators:
                 result += token
             elif token == '[':
-                result += Parser.__CONCAT_OP
+                result += Parser.CONCAT_OP
                 result += '('
                 k = i + 1
                 group = []
@@ -38,11 +39,11 @@ class Parser:
                 result += ')'
                 i = k
             elif token == '\\':
-                result += '.(' + '|'.join(Parser.add_group_by_symbol(regex[i + 1])) + ')'
+                result += Parser.CONCAT_OP + '(' + '|'.join(Parser.add_group_by_symbol(regex[i + 1])) + ')'
                 i += 1
             else:
                 if i != 0 and regex[i - 1] not in no_concat_past:
-                    result += Parser.__CONCAT_OP
+                    result += Parser.CONCAT_OP
                 result += token
             i += 1
         print('pre', result)
@@ -50,7 +51,6 @@ class Parser:
 
     @staticmethod
     def to_postfix(expression: str):
-        # https://en.wikipedia.org/wiki/Shunting-yard_algorithm
         result = []
         operator_stack = []
 

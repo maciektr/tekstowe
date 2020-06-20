@@ -1,4 +1,4 @@
-from collections import defaultdict
+from parser import Parser
 
 
 class State:
@@ -61,7 +61,7 @@ class Nfa:
                 right = stack.pop()
                 left = stack.pop()
                 stack.append(left.union(right))
-            elif token == '.':
+            elif token == Parser.CONCAT_OP:
                 right = stack.pop()
                 left = stack.pop()
                 stack.append(left.concat(right))
